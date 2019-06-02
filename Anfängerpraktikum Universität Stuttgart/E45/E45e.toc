@@ -1,0 +1,42 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{4}
+\contentsline {section}{\numberline {2}Grundlagen}{4}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Durchf\IeC {\"u}hrung}{5}
+\contentsline {subsection}{\numberline {3.1}Ben\IeC {\"o}tigte Ger\IeC {\"a}te}{5}
+\contentsline {subsection}{\numberline {3.2}Versuchsaufbau}{5}
+\contentsline {subsection}{\numberline {3.3}Versuchsdurchf\IeC {\"u}hrung}{6}
+\contentsline {subsubsection}{\numberline {3.3.1}Grundbelastung durch den Ausleger}{6}
+\contentsline {subsubsection}{\numberline {3.3.2}Bremskraft in Abh\IeC {\"a}ngigkeit vom Radius}{6}
+\contentsline {subsubsection}{\numberline {3.3.3}Bremskraft in Abh\IeC {\"a}ngigkeit von der Drehzahl}{6}
+\contentsline {subsubsection}{\numberline {3.3.4}Bremskraft in Abh\IeC {\"a}ngigkeit von der Magnetfeldst\IeC {\"a}rke}{6}
+\contentsline {subsubsection}{\numberline {3.3.5}Bremskraft in Abh\IeC {\"a}ngigkeit von der Feldgeometrie}{6}
+\contentsline {subsubsection}{\numberline {3.3.6}Bremskraft in Abh\IeC {\"a}ngigkeit von dem Scheibenmaterial}{6}
+\contentsline {subsubsection}{\numberline {3.3.7}Energiebetrachtung}{6}
+\contentsline {subsubsection}{\numberline {3.3.8}Motor als Stromgenerator}{6}
+\contentsline {section}{\numberline {4}Formeln}{7}
+\contentsline {subsection}{\numberline {4.1}Formeln f\IeC {\"u}r Bremskraft und Bremsdrehmoment}{7}
+\contentsline {subsection}{\numberline {4.2}Formeln f\IeC {\"u}r die Leistung}{7}
+\contentsline {section}{\numberline {5}Messwerte}{8}
+\contentsline {section}{\numberline {6}Auswertung}{10}
+\contentsline {subsection}{\numberline {6.1}Grundbelastung durch den Ausleger}{10}
+\contentsline {subsection}{\numberline {6.2}Bremskraft in Abh\IeC {\"a}ngigkeit vom Radius}{10}
+\contentsline {subsection}{\numberline {6.3}Bremskraft in Abh\IeC {\"a}ngigkeit von der Drehzahl}{12}
+\contentsline {subsection}{\numberline {6.4}Bremskraft in Abh\IeC {\"a}ngigkeit von der Magnetfeldst\IeC {\"a}rke}{13}
+\contentsline {subsection}{\numberline {6.5}Bremskraft in Abh\IeC {\"a}ngigkeit von der Feldgeometrie}{15}
+\contentsline {subsubsection}{\numberline {6.5.1}Abh\IeC {\"a}ngigkeit Radius}{15}
+\contentsline {subsubsection}{\numberline {6.5.2}Abh\IeC {\"a}ngigkeit Drehzahl}{15}
+\contentsline {subsubsection}{\numberline {6.5.3}Abh\IeC {\"a}ngigkeit Spulenstrom}{15}
+\contentsline {subsubsection}{\numberline {6.5.4}Ergebnisse f\IeC {\"u}r breite Polschuhe}{15}
+\contentsline {subsection}{\numberline {6.6}Bremskraft in Abh\IeC {\"a}ngigkeit von dem Scheibenmaterial}{16}
+\contentsline {subsection}{\numberline {6.7}Energiebetrachtung}{17}
+\contentsline {subsubsection}{\numberline {6.7.1}Berechnung der Leistungen}{17}
+\contentsline {subsubsection}{\numberline {6.7.2}Wirkungsgrade}{17}
+\contentsline {subsection}{\numberline {6.8}Motor als Stromgenerator}{18}
+\contentsline {subsubsection}{\numberline {6.8.1}Motor mit aktiver Spule}{18}
+\contentsline {subsubsection}{\numberline {6.8.2}Motor ohne aktive Spule}{18}
+\contentsline {section}{\numberline {7}Fehlerquellen und Fehlerrechnung}{18}
+\contentsline {subsection}{\numberline {7.1}Fehlerquellen}{18}
+\contentsline {subsection}{\numberline {7.2}Fehlerrechnung}{19}
+\contentsline {section}{\numberline {8}Zusammenfassung}{20}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{21}
+\contentsline {section}{\numberline {10}Anhang}{21}

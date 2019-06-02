@@ -1,0 +1,143 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	2	19.06.2015 13:46:59
+geometry	0	0	445	220	
+header	V[X]	mykroA[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	-1.00000000000000e+00	-4.00000000000000e-01
+1	-2.05000000000000e+00	-5.00000000000000e-01
+2	-3.00000000000000e+00	-7.00000000000000e-01
+3	-4.00000000000000e+00	-8.00000000000000e-01
+4	-5.00000000000000e+00	-1.00000000000000e+00
+5	-6.00000000000000e+00	-1.10000000000000e+00
+6	-7.00000000000000e+00	-1.30000000000000e+00
+7	-7.30000000000000e+00	-1.40000000000000e+00
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	19.06.2015 13:54:39
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	7	6	1188	830
+PlotTitle	Sperrrichtung Germanium	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Strom in [V]	Strom in [μA]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont0	Arial Black	18	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	12	75	0	0	0
+ScaleFont2	Arial Black	18	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	12	75	0	0	0
+AxisFont0	MS Shell Dlg 2	12	50	0	0	0
+AxisFont1	MS Shell Dlg 2	12	50	0	0	0
+AxisFont2	MS Shell Dlg 2	12	50	0	0	0
+AxisFont3	MS Shell Dlg 2	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_V	Tabelle1_mykroA	1	0	#000000	0	1	11	3	#00ffff	#00ffff	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>-7.3	-1</Range>
+<Points>2</Points>
+<Constant>A	0.156343493090415</Constant>
+<Constant>B	-0.209157189906727</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#c0c0c0</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-1.6	-0.2	0	8	5	0	0
+scale	1	-1.6	-0.2	0	8	5	0	0
+scale	2	-8	0	0	8	5	0	0
+scale	3	-8	0	0	9	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-7.7010027347311</x>
+<y>-0.23300970873786</y>
+<right>-5.96536007292616</right>
+<bottom>-0.421359223300971</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Messwerte
+\l(2) Fitgerade
+</Text>
+<Font>MS Shell Dlg 2	26	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[19.06.2015 13:55:07	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_mykroA, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = -1,0000000000000e+00 bis x = -7,3000000000000e+00
+B (y-intercept) = -2,0915718990673e-01 +/- 3,0343906993132e-02
+A (slope) = 1,5634349309042e-01 +/- 6,1699894876092e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,4195725471464e-03
+R^2 = 0,9907419181708
+Angepasstes R^2 = 0,9870386854391
+RMSE (Standardabweichung) = 0,03767721522547
+RSS (Summe der quadrierten Restwerte) = 0,008517435282878
+---------------------------------------------------------------------------------------
+
+</log>

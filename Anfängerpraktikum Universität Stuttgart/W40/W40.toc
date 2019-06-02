@@ -1,0 +1,19 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {3.1}Versuchsaufbau}{4}
+\contentsline {subsection}{\numberline {3.2}Versuchsdurchf\IeC {\"u}hrung}{5}
+\contentsline {section}{\numberline {4}Formeln}{6}
+\contentsline {subsection}{\numberline {4.1}Schmelzw\IeC {\"a}rme}{6}
+\contentsline {subsection}{\numberline {4.2}Wirkungsgrade}{6}
+\contentsline {section}{\numberline {5}Messwerte}{7}
+\contentsline {section}{\numberline {6}Auswertung}{7}
+\contentsline {subsection}{\numberline {6.1}Schmelzw\IeC {\"a}rme}{8}
+\contentsline {subsection}{\numberline {6.2}Bremsleistung und induzierte Leistung}{9}
+\contentsline {subsection}{\numberline {6.3}Wirkungsgrade}{9}
+\contentsline {subsection}{\numberline {6.4}P-V-Diagramme}{11}
+\contentsline {section}{\numberline {7}Fehlerdiskussion}{12}
+\contentsline {section}{\numberline {8}Zusammenfassung}{12}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{13}
+\contentsline {section}{\numberline {10}Anhang}{13}

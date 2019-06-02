@@ -1,0 +1,183 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	1048577	2	29.09.2015 02:53:09
+geometry	641	0	639	879	
+header	1[Y]	5[X]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	4.20000000000000e+01	4.27197000000000e+01
+1	2.70000000000000e+01	3.06882666667000e+01
+2	2.12800000000000e+01	2.43716333333000e+01
+3	4.45700000000000e+01	4.48182666667000e+01
+4	3.37800000000000e+01	3.26036666667000e+01
+5	2.30000000000000e+01	2.56904333333000e+01
+6	5.67400000000000e+01	5.75719000000000e+01
+7	3.33500000000000e+01	3.83917333333000e+01
+8	2.85300000000000e+01	2.97881333333000e+01
+9	2.05000000000000e+01	2.40419333333000e+01
+</data>
+</table>
+<multiLayer>
+Grafik3	1	1	29.09.2015 02:59:55
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	12	9	1253	826
+PlotTitle	Kreisfrequenz-Präzessionsdauer-Diagramm bei 10g	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#a0a0a4	0	0.5	#c0c0c0	2	0.4	#a0a0a4	0	0.5	#c0c0c0	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Kreisfrequenz [1/s]	Präzessionsdauer [s]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	MS Shell Dlg 2	22	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	17	75	0	0	0
+AxisFont0	MS Shell Dlg 2	17	50	0	0	0
+AxisFont1	MS Shell Dlg 2	17	50	0	0	0
+AxisFont2	MS Shell Dlg 2	17	50	0	0	0
+AxisFont3	MS Shell Dlg 2	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_5	Tabelle1_1	1	0	#000000	0	1	11	1	#000000	#00ffff	0	#000000	14	1	2	0	0	1048576	1
+<Function>
+<Type>0</Type>
+<Title>SteigungFit1</Title>
+<Expression>A*x</Expression>
+<Variable>x</Variable>
+<Range>24.0419333333	57.5719</Range>
+<Points>2</Points>
+<Constant>A	0.953150685112945</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#808080</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	20	60	0	9	5	0	0
+scale	1	20	60	0	8	5	0	0
+scale	2	20	60	0	9	5	0	0
+scale	3	20	60	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>20.957264957265</x>
+<y>57.535014005602</y>
+<right>31.965811965812</right>
+<bottom>52.7731092436975</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Auswertung 
+\l(2) Fitgerade f(x)= ax
+</Text>
+<Font>MS Shell Dlg 2	23	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[29.09.2015 02:55:13	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 4,2000000000000e+01 bis x = 5,7000000000000e+01
+B (y-intercept) = 2,8699420535815e+01 +/- 7,2118842474327e+00
+A (slope) = 3,0697661753539e-01 +/- 2,0493295788809e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9,3474317977505e+01
+R^2 = 0,1694235909589
+Angepasstes R^2 = 0,003308309150676
+RMSE (Standardabweichung) = 9,668211725935
+RSS (Summe der quadrierten Restwerte) = 1.028,217497753
+---------------------------------------------------------------------------------------
+[29.09.2015 03:00:55	Diagramm: ''Grafik3'']
+Lineare Regression von Datensatz: Tabelle1_5, unter Verwendung der Funktion: A*x
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 4,2000000000000e+01 bis x = 2,0500000000000e+01
+A (slope) = 1,0454178857557e+00 +/- 2,0826711759677e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,2780116798142e+00
+R^2 = 0,9546798812048
+Angepasstes R^2 = 0,9490148663554
+RMSE (Standardabweichung) = 2,297392365229
+RSS (Summe der quadrierten Restwerte) = 47,50210511833
+---------------------------------------------------------------------------------------
+
+
+
+[30.09.2015 07:27:07	Diagramm: ''Grafik3'']
+Lineare Regression von Datensatz: Tabelle1_1, unter Verwendung der Funktion: A*x
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 4,2719700000000e+01 bis x = 2,4041933333300e+01
+A (slope) = 9,5315068511294e-01 +/- 1,8988573710920e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,8121813460390e+00
+R^2 = 0,964752134543
+Angepasstes R^2 = 0,9603461513609
+RMSE (Standardabweichung) = 2,193668467668
+RSS (Summe der quadrierten Restwerte) = 43,30963211435
+---------------------------------------------------------------------------------------
+[30.09.2015 07:31:56	Diagramm: ''Grafik3'']
+Lineare Regression von Datensatz: Tabelle1_1, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 4,2719700000000e+01 bis x = 2,4041933333300e+01
+B (y-intercept) = -4,4645994329731e+00 +/- 2,0980380219596e+00
+A (slope) = 1,0704628960117e+00 +/- 5,7429456554361e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,4569351306070e+00
+R^2 = 0,9774923815459
+Angepasstes R^2 = 0,9710616334162
+RMSE (Standardabweichung) = 1,859283499256
+RSS (Summe der quadrierten Restwerte) = 27,65548104486
+---------------------------------------------------------------------------------------
+</log>

@@ -1,0 +1,19 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Durchf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {3.1}ben\IeC {\"o}tigte Ger\IeC {\"a}te}{4}
+\contentsline {subsection}{\numberline {3.2}Messungen mit Gleichstrom}{4}
+\contentsline {subsection}{\numberline {3.3}Messungen mit Wechselstrom}{5}
+\contentsline {section}{\numberline {4}Formeln}{6}
+\contentsline {subsection}{\numberline {4.1}Shockleysche Beziehung}{6}
+\contentsline {subsection}{\numberline {4.2}Energie eines Lichtteilchens}{6}
+\contentsline {section}{\numberline {5}Messwerte}{7}
+\contentsline {section}{\numberline {6}Auswertung}{8}
+\contentsline {subsection}{\numberline {6.1}Germanium- und Silizium-Diode}{8}
+\contentsline {subsection}{\numberline {6.2}Zener-Diode}{11}
+\contentsline {subsection}{\numberline {6.3}LEDs}{13}
+\contentsline {subsection}{\numberline {6.4}Fragen}{14}
+\contentsline {section}{\numberline {7}Zusammenfassung}{15}
+\contentsline {section}{\numberline {8}Literaturverzeichnis}{17}
+\contentsline {section}{\numberline {9}Anhang}{17}

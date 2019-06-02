@@ -1,0 +1,19 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {3}Formeln}{5}
+\contentsline {subsection}{\numberline {3.1}Berechnung der Gitterkonstante/Schallwellenl\IeC {\"a}nge}{5}
+\contentsline {subsection}{\numberline {3.2}Berechnung der Schallgeschwindigkeit}{5}
+\contentsline {subsection}{\numberline {3.3}Berechnung des Kompressionsmodul}{5}
+\contentsline {section}{\numberline {4}Messwerte}{6}
+\contentsline {section}{\numberline {5}Auswertung}{7}
+\contentsline {subsection}{\numberline {5.1}Auswertung der Gitterkonstante/Schallwellenl\IeC {\"a}nge}{7}
+\contentsline {subsection}{\numberline {5.2}Auswertung Schallgeschwindigkeit}{8}
+\contentsline {subsection}{\numberline {5.3}Auswertung Kompressionsmodul}{12}
+\contentsline {section}{\numberline {6}Fehlerrechnung}{14}
+\contentsline {subsection}{\numberline {6.1}Fehlerquellen}{14}
+\contentsline {subsection}{\numberline {6.2}Fehler bei der Gitterkonstante /Schallwellenl\IeC {\"a}nge}{14}
+\contentsline {subsection}{\numberline {6.3}Fehler bei der Schallgeschwindigkeit}{16}
+\contentsline {subsection}{\numberline {6.4}Fehler beim Kompressionsmodul}{17}
+\contentsline {section}{\numberline {7}Zusammenfassung}{18}
+\contentsline {section}{\numberline {8}Literaturverzeichnis}{20}

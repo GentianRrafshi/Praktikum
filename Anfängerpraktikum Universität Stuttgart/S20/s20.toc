@@ -1,0 +1,22 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Durchf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {3.1}ben\IeC {\"o}tigte Ger\IeC {\"a}te}{4}
+\contentsline {subsection}{\numberline {3.2}Versuchsdurchf\IeC {\"u}hrung}{4}
+\contentsline {section}{\numberline {4}Formeln}{5}
+\contentsline {subsection}{\numberline {4.1}Formel f\IeC {\"u}r die mittlere Zeit}{5}
+\contentsline {subsection}{\numberline {4.2}empirische Formel f\IeC {\"u}r die Viskosit\IeC {\"a}t}{5}
+\contentsline {subsection}{\numberline {4.3}Formel f\IeC {\"u}r die Viskosit\IeC {\"a}t}{5}
+\contentsline {section}{\numberline {5}Messwerte}{6}
+\contentsline {section}{\numberline {6}Auswertung}{7}
+\contentsline {subsection}{\numberline {6.1}Berechnung mittlere Fallzeit}{7}
+\contentsline {subsection}{\numberline {6.2}Berechnung der Viskosit\IeC {\"a}t nach empirischer Formel}{7}
+\contentsline {subsection}{\numberline {6.3}Nachweis der Viskosit\IeC {\"a}tsgleichung (\ref {vis})}{8}
+\contentsline {section}{\numberline {7}Fehlerrechnung}{10}
+\contentsline {subsection}{\numberline {7.1}Fehler bei Viskosit\IeC {\"a}t}{10}
+\contentsline {subsection}{\numberline {7.2}Fehler bei Inverse der Temperatur}{10}
+\contentsline {subsection}{\numberline {7.3}Fehler in den Materialkonstanten}{11}
+\contentsline {section}{\numberline {8}Zusammenfassung}{12}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{13}
+\contentsline {section}{\numberline {10}Anhang}{13}

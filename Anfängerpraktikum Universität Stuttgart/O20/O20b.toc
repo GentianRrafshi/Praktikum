@@ -1,0 +1,21 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Durchf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {3.1}Bestimmung des brechenden Winkels $\varphi $}{4}
+\contentsline {subsection}{\numberline {3.2}Messung der minimalen Ablenkwinkel}{5}
+\contentsline {section}{\numberline {4}Formeln}{5}
+\contentsline {subsection}{\numberline {4.1}Formel f\IeC {\"u}r Brechungswinkel}{5}
+\contentsline {subsection}{\numberline {4.2}Formel f\IeC {\"u}r den minimalen Ablenkwinkel}{5}
+\contentsline {subsection}{\numberline {4.3}Formel f\IeC {\"u}r Brechungsindex}{5}
+\contentsline {subsection}{\numberline {4.4}Formel f\IeC {\"u}r Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{5}
+\contentsline {section}{\numberline {5}Messwerte}{6}
+\contentsline {section}{\numberline {6}Auswertung}{7}
+\contentsline {subsection}{\numberline {6.1}Berechnung des brechenden Winkels $\varphi $}{7}
+\contentsline {subsection}{\numberline {6.2}Berechnung des minimalen Ablenkwinkels $\delta _{\text {min}}$}{7}
+\contentsline {subsection}{\numberline {6.3}Brechungsindex}{8}
+\contentsline {subsection}{\numberline {6.4}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{10}
+\contentsline {section}{\numberline {7}Fehlerquellen}{11}
+\contentsline {section}{\numberline {8}Zusammenfassung}{13}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{14}
+\contentsline {section}{\numberline {10}Anhang}{14}

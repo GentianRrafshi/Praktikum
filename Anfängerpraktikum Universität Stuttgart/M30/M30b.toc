@@ -1,0 +1,29 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Durchf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {3.1}Versuchsaufbau}{4}
+\contentsline {subsection}{\numberline {3.2}Versuchsdurchf\IeC {\"u}hrung}{5}
+\contentsline {subsubsection}{\numberline {3.2.1}Ermittlung der Eigenfrequenz}{5}
+\contentsline {subsubsection}{\numberline {3.2.2}Bestimmung des logarithmischen Dekrements $\Lambda $ und der Abklingkonstanten $\delta $}{5}
+\contentsline {subsubsection}{\numberline {3.2.3}Qualitativer Vergleich zwischen ged\IeC {\"a}mpften und unged\IeC {\"a}mpften Verhalten}{5}
+\contentsline {subsubsection}{\numberline {3.2.4}Aufzeichnung der Resonanzkurve und Phasenverschiebung}{6}
+\contentsline {section}{\numberline {4}Formeln}{7}
+\contentsline {subsection}{\numberline {4.1}Formel f\IeC {\"u}r die Eigenfrequenz}{7}
+\contentsline {subsection}{\numberline {4.2}Formel des Dekrements $\Lambda $}{7}
+\contentsline {subsection}{\numberline {4.3}Formel der Abklingkonstante $\delta $}{7}
+\contentsline {subsection}{\numberline {4.4}Formel f\IeC {\"u}r die Phasenverschiebung}{7}
+\contentsline {section}{\numberline {5}Messwerte}{8}
+\contentsline {section}{\numberline {6}Auswertung}{9}
+\contentsline {subsection}{\numberline {6.1}Ermittelung der Eigenfrequenzen}{9}
+\contentsline {subsection}{\numberline {6.2}Logarithmisches Dekrement und die Abklingkonstante}{10}
+\contentsline {subsection}{\numberline {6.3}Vergleich unged\IeC {\"a}mpfte und ged\IeC {\"a}mpfte Schwingung}{12}
+\contentsline {subsection}{\numberline {6.4}Resonanzkurve}{13}
+\contentsline {subsection}{\numberline {6.5}Phasenverschiebung}{14}
+\contentsline {section}{\numberline {7}Fehlerrechnung}{15}
+\contentsline {subsection}{\numberline {7.1}Fehler bei der Eigenfrequenzen}{15}
+\contentsline {subsection}{\numberline {7.2}Fehler logarithmisches Dekrement}{15}
+\contentsline {subsection}{\numberline {7.3}Fehler Abklingkonstante}{16}
+\contentsline {section}{\numberline {8}Zusammenfassung}{17}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{18}
+\contentsline {section}{\numberline {10}Anhang}{18}

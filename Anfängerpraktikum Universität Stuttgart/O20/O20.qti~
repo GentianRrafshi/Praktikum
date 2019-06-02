@@ -1,0 +1,203 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	3
+<table>
+Tabelle1	30	5	05.06.2015 11:10:28
+geometry	641	440	639	439	
+header	1[X]	2[Y]	3[Y]	Prisma2[yEr]	5[yEr]
+ColWidth	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel		2
+<data>
+0	6.71000000000000e+02	1.51810000000000e+00	1.73600000000000e+00	3.16000000000000e-03	4.38000000000000e-03
+1	5.79000000000000e+02	1.52000000000000e+00	1.73740000000000e+00	3.18000000000000e-03	4.38000000000000e-03
+2	5.46100000000000e+02	1.52190000000000e+00	1.73780000000000e+00	3.19000000000000e-03	4.39000000000000e-03
+3	4.91600000000000e+02	1.52380000000000e+00		3.20000000000000e-03	
+4	4.35800000000000e+02	1.52760000000000e+00		3.23000000000000e-03	
+5	4.04700000000000e+02	1.53470000000000e+00	1.74180000000000e+00	3.28000000000000e-03	4.38000000000000e-03
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	05.06.2015 11:51:45
+geometry	0	0	641	879	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	8	2	600	778
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Wellenlänge [nm]	Brechungsindex			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	14	75	0	0	0
+ScaleFont0	Arial Black	23	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	11	75	0	0	0
+ScaleFont2	Arial Black	23	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	11	75	0	0	0
+AxisFont0	MS Shell Dlg 2	11	50	0	0	0
+AxisFont1	MS Shell Dlg 2	11	50	0	0	0
+AxisFont2	MS Shell Dlg 2	11	50	0	0	0
+AxisFont3	MS Shell Dlg 2	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	11	3	#808080	#00ffff	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Tabelle1_1	Tabelle1_2	Tabelle1_Prisma2	1	8	#000000	1	1	1
+scale	0	1.51	1.54	0	3	5	0	0
+scale	1	1.51	1.54	0	8	5	0	0
+scale	2	400	700	0	8	5	0	0
+scale	3	400	700	0	7	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>599.91031390135</x>
+<y>1.5386206896552</y>
+<right>426.572187776794</right>
+<bottom>1.53841886269071</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Prisma 1
+</Text>
+<Font>MS Shell Dlg 2	28	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Grafik2	1	1	05.06.2015 11:54:53
+geometry	641	0	639	440	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	6	4	606	369
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Wellenlänge [nm]	Brechnungsindex			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	9	75	0	0	0
+ScaleFont0	Arial Black	16	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont2	Arial Black	16	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	7	75	0	0	0
+AxisFont0	MS Shell Dlg 2	7	50	0	0	0
+AxisFont1	MS Shell Dlg 2	7	50	0	0	0
+AxisFont2	MS Shell Dlg 2	7	50	0	0	0
+AxisFont3	MS Shell Dlg 2	7	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_3	1	0	#000000	0	1	11	3	#808080	#00ffff	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Tabelle1_1	Tabelle1_3	Tabelle1_5	1	8	#000000	1	1	1
+scale	0	1.73	1.75	0	3	5	0	0
+scale	1	1.73	1.75	0	8	5	0	0
+scale	2	400	700	0	7	5	0	0
+scale	3	400	700	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>572.10379981464</x>
+<y>1.7489850746269</y>
+<right>457.256461232604</right>
+<bottom>1.74898255813953</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Prisma 2
+</Text>
+<Font>MS Shell Dlg 2	18	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[05.06.2015 12:42:23	Diagramm: ''Grafik2'']
+Lineare Regression von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 6,7100000000000e+02 bis x = 4,0470000000000e+02
+B (y-intercept) = 1,7504379451962e+00 +/- 1,6325838664903e-03
+A (slope) = -2,2151845140312e-05 +/- 2,9233921835729e-06
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,1286983250629e-07
+R^2 = 0,9663399857443
+Angepasstes R^2 = 0,899019957233
+RMSE (Standardabweichung) = 0,0005593476848136
+RSS (Summe der quadrierten Restwerte) = 6,257396650126e-07
+---------------------------------------------------------------------------------------
+
+
+
+
+
+</log>

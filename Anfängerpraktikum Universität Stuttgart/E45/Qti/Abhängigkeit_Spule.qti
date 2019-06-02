@@ -1,0 +1,148 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	2	04.06.2015 16:05:17
+geometry	641	0	639	879	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	5.00000000000000e+01	3.59000000000000e+00
+1	1.00000000000000e+02	5.88000000000000e+00
+2	1.50000000000000e+02	9.58000000000000e+00
+3	2.00000000000000e+02	1.45900000000000e+01
+4	2.50000000000000e+02	2.13400000000000e+01
+5	3.00000000000000e+02	2.94000000000000e+01
+6	3.50000000000000e+02	3.89800000000000e+01
+7	4.00000000000000e+02	4.68200000000000e+01
+8	4.50000000000000e+02	6.35900000000000e+01
+9	5.00000000000000e+02	7.79700000000000e+01
+10	5.50000000000000e+02	9.32100000000000e+01
+11	6.00000000000000e+02	1.11940000000000e+02
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	04.06.2015 16:06:13
+geometry	0	0	866	651	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	6	10	838	566
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Spulenstrom [mA]	Bremsdrehmoment [mNm]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont0	Arial Black	15	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	12	75	0	0	0
+ScaleFont2	Arial Black	15	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	12	75	0	0	0
+AxisFont0	MS Shell Dlg 2	12	50	0	0	0
+AxisFont1	MS Shell Dlg 2	12	50	0	0	0
+AxisFont2	MS Shell Dlg 2	12	50	0	0	0
+AxisFont3	MS Shell Dlg 2	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	11	3	#00aaff	#00aaff	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>PolynomFit1</Title>
+<Expression>a0+a1*x+a2*x^2</Expression>
+<Variable>x</Variable>
+<Range>50	600</Range>
+<Points>100</Points>
+<Constant>a0	4.1138636363636</Constant>
+<Constant>a1	-0.014152697302697</Constant>
+<Constant>a2	0.00032167332667333</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#808080</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	120	0	7	5	0	0
+scale	1	0	120	0	8	5	0	0
+scale	2	0	700	0	8	5	0	0
+scale	3	0	700	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>21.681415929204</x>
+<y>116.19047619048</y>
+<right>216.194690265487</right>
+<bottom>100.08658008658</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Messergebnisse
+\l(2) quadratischer Fit
+</Text>
+<Font>MS Shell Dlg 2	17	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[04.06.2015 16:10:08	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: a0+a1*x+a2*x^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e+01 bis x = 6,0000000000000e+02
+a0 = 4,1138636363636e+00 +/- 1,2166225286262e+00
+a1 = -1,4152697302697e-02 +/- 8,6058369944273e-03
+a2 = 3,2167332667333e-04 +/- 1,2888632711688e-05
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,3856914169164e+00
+R^2 = 0,9991375654544
+Angepasstes R^2 = 0,9988141524997
+RMSE (Standardabweichung) = 1,17715394784
+RSS (Summe der quadrierten Restwerte) = 12,47122275225
+---------------------------------------------------------------------------------------
+</log>

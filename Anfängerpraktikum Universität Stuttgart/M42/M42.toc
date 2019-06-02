@@ -1,0 +1,21 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {3.1}Versuchsbeschreibung}{4}
+\contentsline {subsection}{\numberline {3.2}Versuchsablauf}{5}
+\contentsline {section}{\numberline {4}Formeln}{6}
+\contentsline {section}{\numberline {5}Messwerte}{6}
+\contentsline {section}{\numberline {6}Auswertung}{9}
+\contentsline {subsection}{\numberline {6.1}Auswertung Tr\IeC {\"a}gheitsmoment}{9}
+\contentsline {subsection}{\numberline {6.2}Auswertung D\IeC {\"a}mpfungskonstante}{10}
+\contentsline {subsection}{\numberline {6.3}Tr\IeC {\"a}gheitsmoment bei Pr\IeC {\"a}zession}{12}
+\contentsline {subsection}{\numberline {6.4}Auswertung bei Nutation}{14}
+\contentsline {section}{\numberline {7}Fehlerrechnung}{15}
+\contentsline {subsection}{\numberline {7.1}Fehlerquellen}{15}
+\contentsline {subsection}{\numberline {7.2}Fehler Tr\IeC {\"a}gheitsmoment}{15}
+\contentsline {subsection}{\numberline {7.3}Fehler D\IeC {\"a}mpfungskonstante}{16}
+\contentsline {subsection}{\numberline {7.4}Fehler bei der Pr\IeC {\"a}zession}{16}
+\contentsline {section}{\numberline {8}Zusammenfassung}{17}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{18}
+\contentsline {section}{\numberline {10}Anhang}{18}

@@ -1,0 +1,23 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {subsection}{\numberline {2.1}komplexe Wechselstromwiderst\IeC {\"a}nde}{3}
+\contentsline {subsection}{\numberline {2.2}Das RC-Glied}{3}
+\contentsline {subsection}{\numberline {2.3}Serien-/Parallelschwingkreis}{4}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Durchf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {3.1}Ben\IeC {\"o}tigte Ger\IeC {\"a}te}{4}
+\contentsline {subsection}{\numberline {3.2}Versuchsaufbau und -Durchf\IeC {\"u}hrung}{4}
+\contentsline {section}{\numberline {4}Formeln}{6}
+\contentsline {subsection}{\numberline {4.1}Formeln f\IeC {\"u}r Berechnung des Scheinwiderstandes}{6}
+\contentsline {subsection}{\numberline {4.2}Formeln f\IeC {\"u}r den Serienschwingkreis:}{6}
+\contentsline {subsection}{\numberline {4.3}Formeln f\IeC {\"u}r den Parallelschwingkreis:}{6}
+\contentsline {subsection}{\numberline {4.4}Formel f\IeC {\"u}r Berechnung der Phasenverschiebung $\Phi $}{6}
+\contentsline {section}{\numberline {5}Messwerte}{7}
+\contentsline {section}{\numberline {6}Auswertung}{8}
+\contentsline {subsection}{\numberline {6.1}Berechnung des Scheinwiderstands f\IeC {\"u}r den Serienschwingkreis}{8}
+\contentsline {subsection}{\numberline {6.2}Berechnung des Scheinwiderstands f\IeC {\"u}r den Parallelschwingkreis}{8}
+\contentsline {subsection}{\numberline {6.3}Berechnung der Phasenverschiebung}{10}
+\contentsline {section}{\numberline {7}Fehlerquellen}{11}
+\contentsline {section}{\numberline {8}Zusammenfassung}{12}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{12}
+\contentsline {section}{\numberline {10}Anhang}{12}

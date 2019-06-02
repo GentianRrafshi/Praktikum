@@ -1,0 +1,154 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	2	29.09.2015 04:18:29
+geometry	641	0	639	879	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	3.58700000000000e+01	5.95000000000000e+00
+1	2.81900000000000e+01	5.71000000000000e+00
+2	2.81000000000000e+01	4.17000000000000e+00
+3	2.43200000000000e+01	4.10000000000000e+00
+4	2.81900000000000e+01	5.71000000000000e+00
+5	2.13500000000000e+01	3.81000000000000e+00
+6	5.61300000000000e+01	8.55000000000000e+00
+7	2.16500000000000e+01	4.85000000000000e+00
+8	1.59800000000000e+01	2.94000000000000e+00
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	29.09.2015 04:19:29
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	8	7	1262	828
+PlotTitle	Nutationfrequenz-Rotationsfrequenz-Diagramm	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#a0a0a4	0	0.5	#c0c0c0	2	0.4	#a0a0a4	0	0.5	#c0c0c0	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Rotationsfrequenz [Hz]	Nutationsfrequenz [Hz]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	MS Shell Dlg 2	22	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	17	75	0	0	0
+AxisFont0	MS Shell Dlg 2	17	50	0	0	0
+AxisFont1	MS Shell Dlg 2	17	50	0	0	0
+AxisFont2	MS Shell Dlg 2	17	50	0	0	0
+AxisFont3	MS Shell Dlg 2	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	11	1	#000000	#00ffff	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>SteigungFit1</Title>
+<Expression>A*x</Expression>
+<Variable>x</Variable>
+<Range>15.98	56.13</Range>
+<Points>2</Points>
+<Constant>A	0.15104330287479</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#808080</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	2	9	0	8	5	0	0
+scale	1	2	9	0	8	5	0	0
+scale	2	10	60	0	8	5	0	0
+scale	3	10	60	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>13.539019963702</x>
+<y>8.6435185185185</y>
+<right>36.4065335753176</right>
+<bottom>7.63888888888889</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Auswertung
+\l(2) Fitgerade
+</Text>
+<Font>MS Shell Dlg 2	27	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[29.09.2015 04:21:46	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 3,5870000000000e+01 bis x = 1,5980000000000e+01
+A (slope) = 1,3828415458177e-01 +/- 1,1583805846273e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1523184518050e+00
+R^2 = -1,039070612652
+Angepasstes R^2 = -1,33036641446
+RMSE (Standardabweichung) = 1,073460968925
+RSS (Summe der quadrierten Restwerte) = 9,21854761444
+---------------------------------------------------------------------------------------
+[29.09.2015 04:22:11	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 3,5870000000000e+01 bis x = 1,5980000000000e+01
+A (slope) = 1,5104330287479e-01 +/- 1,5439611634929e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,0471172626156e+00
+R^2 = -0,8501623419727
+Angepasstes R^2 = -1,114471247969
+RMSE (Standardabweichung) = 1,430775056609
+RSS (Summe der quadrierten Restwerte) = 16,37693810092
+---------------------------------------------------------------------------------------
+
+</log>

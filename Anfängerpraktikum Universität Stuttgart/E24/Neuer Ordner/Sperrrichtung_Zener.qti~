@@ -1,0 +1,150 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	2	19.06.2015 14:06:29
+geometry	0	0	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	-1.00000000000000e+00	-2.00000000000000e-01
+1	-2.00000000000000e+00	-3.00000000000000e-01
+2	-3.00000000000000e+00	-7.00000000000000e-01
+3	-4.00000000000000e+00	-1.12000000000000e+01
+4	-5.00000000000000e+00	-1.68000000000000e+02
+5	-5.30000000000000e+00	-1.48500000000000e+03
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	19.06.2015 14:06:47
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	6	6	1172	784
+PlotTitle	Sperrrichtung Zener-Diode	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Spannung in [V]	Strom in [mA]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont0	Arial Black	18	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	12	75	0	0	0
+ScaleFont2	Arial Black	18	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	12	75	0	0	0
+AxisFont0	MS Shell Dlg 2	12	50	0	0	0
+AxisFont1	MS Shell Dlg 2	12	50	0	0	0
+AxisFont2	MS Shell Dlg 2	12	50	0	0	0
+AxisFont3	MS Shell Dlg 2	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	11	3	#00ffff	#00ffff	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>BoltzmannFit1</Title>
+<Expression>A2+(A1-A2)/(1+exp((x-x0)/dx))</Expression>
+<Variable>x</Variable>
+<Range>-5.3	-1</Range>
+<Points>100</Points>
+<Constant>A1	-264598.8741934</Constant>
+<Constant>A2	-3.0678699818052</Constant>
+<Constant>dx	0.13633749725481</Constant>
+<Constant>x0	-6.0061252362897</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#a0a0a4</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-1600	200	0	8	5	0	0
+scale	1	-1600	200	0	8	5	0	0
+scale	2	-6	0	0	8	5	0	0
+scale	3	-6	0	0	7	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-2.1618062088429</x>
+<y>-1093.2551319648</y>
+<right>-0.0959548447789276</right>
+<bottom>-1518.18181818182</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Messwerte
+\l(2) Fitkurve
+</Text>
+<Font>MS Shell Dlg 2	38	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[19.06.2015 14:07:37	Diagramm: ''Grafik1'']
+Boltzmann (Sigmoidal) Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = -1,0000000000000e+00 bis x = -5,3000000000000e+00
+A1 (Anfangswert) = -2,6459887419340e+05 +/- 1,1565291711641e+09
+A2 (Endwert) = -3,0678699818052e+00 +/- 3,7850866799851e+00
+x0 (Zentrum) = -6,0061252362897e+00 +/- 6,0630591353376e+02
+dx (Zeitkonstante) = 1,3633749725481e-01 +/- 1,3570237446287e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,2942503629621e+01
+R^2 = 0,9999515134341
+Angepasstes R^2 = 0,9997575671707
+RMSE (Standardabweichung) = 6,553053000672
+RSS (Summe der quadrierten Restwerte) = 85,88500725924
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+
+
+</log>

@@ -1,0 +1,118 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	10	22.04.2015 00:09:53
+geometry	0	0	1094	266	
+header	fMHz[X]	bei650nm[Y]	bei650nm2[Y]	Fehler650nm[Y]	Fehler650nm2[Y]	6[Y]	bei532nm[Y]	bei532nm2[Y]	Fehler532nm[Y]	Fehler532nm2[Y]
+ColWidth	100	100	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0
+Comments											
+WindowLabel		2
+<data>
+0	3.00000000000000e+00	1.34550000000000e+03	1.53771428600000e+03	8.50687500000000e+01	1.10951020400000e+02		1.61460000000000e+03	1.79400000000000e+03	6.70320000000000e+01	6.22440000000000e+01
+1	4.00000000000000e+00	1.53771428600000e+03	1.53771428600000e+03	5.60326530600000e+01	5.60326530600000e+01		1.91360000000000e+03	1.79400000000000e+03	5.33418666700000e+01	4.69490000000000e+01
+2	5.00000000000000e+00	1.68187500000000e+03	1.68187500000000e+03	5.37773437500000e+01	5.37773437500000e+01		1.99333333300000e+03	1.79400000000000e+03	4.65007407400000e+01	5.00080000000000e+01
+3	6.00000000000000e+00	1.53771428600000e+03	1.53771428600000e+03	5.60326530600000e+01	5.60326530600000e+01		2.15280000000000e+03	1.89952941200000e+03	6.00096000000000e+01	4.68528166100000e+01
+4	7.00000000000000e+00	1.67440000000000e+03	1.67440000000000e+03	5.70266666700000e+01	5.70266666700000e+01		1.93200000000000e+03	2.09300000000000e+03	6.19638343200000e+01	4.88257777800000e+01
+5	8.00000000000000e+00	1.59466666700000e+03	1.79400000000000e+03	8.97481481500000e+01	1.13425000000000e+02		2.05028571400000e+03	2.05028571400000e+03	6.11474285700000e+01	6.11474285700000e+01
+6	9.00000000000000e+00	1.61460000000000e+03	1.61460000000000e+03	8.19000000000000e+01	8.19000000000000e+01		2.01825000000000e+03	2.15280000000000e+03	5.28176250000000e+01	6.00096000000000e+01
+7	1.00000000000000e+01	1.63090909100000e+03	1.63090909100000e+03	7.53140495900000e+01	7.53140495900000e+01		1.99333333300000e+03	2.11058823500000e+03	4.65007407400000e+01	5.20586851200000e+01
+8	1.10000000000000e+01	1.64450000000000e+03	1.64450000000000e+03	6.97125000000000e+01	6.97125000000000e+01		2.07726315800000e+03	2.19266666700000e+03	4.59730526300000e+01	5.11508148100000e+01
+9	1.20000000000000e+01	1.65600000000000e+03	1.65600000000000e+03	6.48923076900000e+01	6.48923076900000e+01		1.95709090900000e+03	2.15280000000000e+03	7.39699834700000e+01	8.93760000000000e+01
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	22.04.2015 00:22:17
+geometry	65	253	1039	607	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	5	5	1014	534
+PlotTitle	Schallgeschwindigkeit-Frequenz-Diagramm	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Frequenz f in [MHz]	Schallgeschwindigkeit c in [m/s]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	14	75	0	0	0
+ScaleFont0	Arial Black	11	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	11	75	0	0	0
+ScaleFont2	Arial Black	11	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	11	75	0	0	0
+AxisFont0	MS Shell Dlg 2	11	50	0	0	0
+AxisFont1	MS Shell Dlg 2	11	50	0	0	0
+AxisFont2	MS Shell Dlg 2	11	50	0	0	0
+AxisFont3	MS Shell Dlg 2	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_fMHz	Tabelle1_bei650nm	2	1	#ff0000	0	1	7	1	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	Tabelle1_fMHz	Tabelle1_bei650nm2	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	Tabelle1_fMHz	Tabelle1_bei532nm	2	1	#008000	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+curve	Tabelle1_fMHz	Tabelle1_bei532nm2	2	1	#008000	0	1	7	4	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Tabelle1_fMHz	Tabelle1_bei650nm	Tabelle1_Fehler650nm	1	8	#ff0000	1	1	1
+ErrorBars	1	Tabelle1_fMHz	Tabelle1_bei650nm2	Tabelle1_Fehler650nm2	1	8	#ff0000	1	1	1
+ErrorBars	1	Tabelle1_fMHz	Tabelle1_bei532nm	Tabelle1_Fehler532nm	1	8	#008000	1	1	1
+ErrorBars	1	Tabelle1_fMHz	Tabelle1_bei532nm2	Tabelle1_Fehler532nm2	1	8	#008000	1	1	1
+ErrorBars	1	Tabelle1_fMHz	Tabelle1_bei532nm2	Tabelle1_Fehler532nm2	1	8	#008000	1	1	1
+scale	0	1200	2400	0	6	5	0	0
+scale	1	1200	2400	0	8	5	0	0
+scale	2	2	14	0	7	5	0	0
+scale	3	2	14	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>9.2416034669556</x>
+<y>1521.0884353741</y>
+<right>13.7399783315276</right>
+<bottom>1240.81632653061</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Messung 1. Versuch roter Laser
+\l(2) Messung 2. Versuch roter Laser
+\l(3) Messung 1. Versuch grüner Laser
+\l(4) Messung 2. Versuch grüner Laser
+</Text>
+<Font>MS Shell Dlg 2	14	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>

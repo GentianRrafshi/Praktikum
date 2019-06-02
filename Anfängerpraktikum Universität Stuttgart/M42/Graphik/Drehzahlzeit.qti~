@@ -1,0 +1,767 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	4	29.09.2015 02:15:52
+geometry	641	0	639	879	
+header	1[X]	2[Y]	3[Y]	4[Y]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.00000000000000e+00	7.81000000000000e+00	7.65000000000000e+00	6.81000000000000e+00
+1	5.00000000000000e+00	7.50000000000000e+00	7.28000000000000e+00	6.48000000000000e+00
+2	1.00000000000000e+01	7.28000000000000e+00	7.01000000000000e+00	6.21000000000000e+00
+3	1.50000000000000e+01	6.92000000000000e+00	6.81000000000000e+00	5.92000000000000e+00
+4	2.00000000000000e+01	6.67000000000000e+00	6.51000000000000e+00	5.68000000000000e+00
+5	2.50000000000000e+01	6.48000000000000e+00	6.28000000000000e+00	5.47000000000000e+00
+6	3.00000000000000e+01	6.29000000000000e+00	6.01000000000000e+00	5.31000000000000e+00
+7	3.50000000000000e+01	6.00000000000000e+00	5.80000000000000e+00	5.05000000000000e+00
+8	4.00000000000000e+01	5.74000000000000e+00	5.56000000000000e+00	4.90000000000000e+00
+9	4.50000000000000e+01	5.36000000000000e+00	5.36000000000000e+00	4.69000000000000e+00
+10	5.00000000000000e+01	5.29000000000000e+00	5.16000000000000e+00	4.51000000000000e+00
+11	5.50000000000000e+01	5.10000000000000e+00	4.92000000000000e+00	4.34000000000000e+00
+12	6.00000000000000e+01	4.89000000000000e+00	4.73000000000000e+00	4.19000000000000e+00
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	29.09.2015 02:16:01
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	12	9	1253	826
+PlotTitle	Drehzahl-Zeit-Diagramm	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#a0a0a4	0	0.5	#c0c0c0	2	0.4	#a0a0a4	0	0.5	#c0c0c0	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Zeit [s]	Drehzahl [<sup>1</sup>/<sub>s</sub>]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	22	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	17	75	0	0	0
+AxisFont0	MS Shell Dlg 2	17	50	0	0	0
+AxisFont1	MS Shell Dlg 2	17	50	0	0	0
+AxisFont2	MS Shell Dlg 2	17	50	0	0	0
+AxisFont3	MS Shell Dlg 2	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_3	1	0	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	Tabelle1_1	Tabelle1_4	1	0	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+curve	Tabelle1_1	Tabelle1_2	1	0	#0000ff	0	1	7	2	#0000ff	#0000ff	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit1</Title>
+<Expression>A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60</Range>
+<Points>100</Points>
+<Constant>A	7.6213528984</Constant>
+<Constant>t	126.9773791724</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit2</Title>
+<Expression>A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60</Range>
+<Points>100</Points>
+<Constant>A	6.69124795990041</Constant>
+<Constant>t	126.356305885968</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit3</Title>
+<Expression>A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60</Range>
+<Points>100</Points>
+<Constant>A	7.8294905282483</Constant>
+<Constant>t	127.64480861218</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#000000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit4</Title>
+<Expression>A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60</Range>
+<Points>100</Points>
+<Constant>A	7.6367510184</Constant>
+<Constant>t	125.9129350522</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit5</Title>
+<Expression>A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60</Range>
+<Points>100</Points>
+<Constant>A	7.6059547784</Constant>
+<Constant>t	128.0418232925</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit6</Title>
+<Expression>A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60</Range>
+<Points>100</Points>
+<Constant>A	6.7305977228</Constant>
+<Constant>t	123.2859026231</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit7</Title>
+<Expression>A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60</Range>
+<Points>100</Points>
+<Constant>A	6.6518981647</Constant>
+<Constant>t	129.4267122863</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit8</Title>
+<Expression>A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60</Range>
+<Points>100</Points>
+<Constant>A	7.8294904814976</Constant>
+<Constant>t	125.2702315565</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit9</Title>
+<Expression>A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60</Range>
+<Points>100</Points>
+<Constant>A	7.7945417523</Constant>
+<Constant>t	130.0193856033</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	4.055199966845	8.166169912568	0	9	5	2	0
+scale	1	4.055199966845	8.166169912568	0	8	5	2	0
+scale	2	-2	62	0	9	5	0	0
+scale	3	-2	62	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>36.882604970009</x>
+<y>7.9843431475055</y>
+<right>59.5869751499572</right>
+<bottom>6.5260652448799</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(3)1. Versuchsdurchführung
+\l(1)2. Versuchsdurchführung
+\l(2)3. Versuchsdurchführung
+\l(4)Fitgeraden
+\l(8)Fehlergeraden
+</Text>
+<Font>MS Shell Dlg 2	21	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[29.09.2015 02:17:14	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,8294905518641e+00 +/- 3,4948776413040e-02
+t = 1,2764480661845e+02 +/- 2,3745769518952e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,6700702180557e-03
+R^2 = 0,9963113887064
+Angepasstes R^2 = 0,9955736664477
+RMSE (Standardabweichung) = 0,06058110446382
+RSS (Summe der quadrierten Restwerte) = 0,04037077239861
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:17:15	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,8294905503119e+00 +/- 3,4948776359833e-02
+t = 1,2764480679288e+02 +/- 2,3745769556668e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,6700702180557e-03
+R^2 = 0,9963113887064
+Angepasstes R^2 = 0,9955736664477
+RMSE (Standardabweichung) = 0,06058110446382
+RSS (Summe der quadrierten Restwerte) = 0,04037077239861
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:17:16	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,8294905471282e+00 +/- 3,4948776316204e-02
+t = 1,2764480702027e+02 +/- 2,3745769619011e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,6700702180557e-03
+R^2 = 0,9963113887064
+Angepasstes R^2 = 0,9955736664477
+RMSE (Standardabweichung) = 0,06058110446382
+RSS (Summe der quadrierten Restwerte) = 0,04037077239861
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:17:19	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,6213528996772e+00 +/- 1,5398120022192e-02
+t = 1,2697737906572e+02 +/- 1,0644441202317e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,1177126048246e-04
+R^2 = 0,9992481826356
+Angepasstes R^2 = 0,9990978191627
+RMSE (Standardabweichung) = 0,02667904159603
+RSS (Summe der quadrierten Restwerte) = 0,007829483865307
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:17:19	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,6213528996800e+00 +/- 1,5398120014005e-02
+t = 1,2697737906443e+02 +/- 1,0644441207264e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,1177126048248e-04
+R^2 = 0,9992481826356
+Angepasstes R^2 = 0,9990978191627
+RMSE (Standardabweichung) = 0,02667904159603
+RSS (Summe der quadrierten Restwerte) = 0,007829483865307
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:17:20	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,6213528998657e+00 +/- 1,5398120017460e-02
+t = 1,2697737904916e+02 +/- 1,0644441198274e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,1177126048248e-04
+R^2 = 0,9992481826356
+Angepasstes R^2 = 0,9990978191627
+RMSE (Standardabweichung) = 0,02667904159603
+RSS (Summe der quadrierten Restwerte) = 0,007829483865307
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:17:23	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,6912479598832e+00 +/- 3,9349779203595e-02
+t = 1,2635630588774e+02 +/- 3,0704047688239e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6441781020440e-03
+R^2 = 0,9936857037998
+Angepasstes R^2 = 0,9924228445597
+RMSE (Standardabweichung) = 0,06814820688796
+RSS (Summe der quadrierten Restwerte) = 0,05108595912248
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:17:23	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,6912479751557e+00 +/- 3,9349779148933e-02
+t = 1,2635630440416e+02 +/- 3,0704046884458e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6441781020439e-03
+R^2 = 0,9936857037998
+Angepasstes R^2 = 0,9924228445597
+RMSE (Standardabweichung) = 0,06814820688796
+RSS (Summe der quadrierten Restwerte) = 0,05108595912248
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:17:24	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,6912479751560e+00 +/- 3,9349779122760e-02
+t = 1,2635630440420e+02 +/- 3,0704046811670e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6441781020438e-03
+R^2 = 0,9936857037998
+Angepasstes R^2 = 0,9924228445597
+RMSE (Standardabweichung) = 0,06814820688796
+RSS (Summe der quadrierten Restwerte) = 0,05108595912248
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in X
+---------------------------------------------------------------------------------------
+[29.09.2015 02:17:49	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,6213528984368e+00 +/- 1,5398120002358e-02
+t = 1,2697737917236e+02 +/- 1,0644441201749e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,1177126048248e-04
+R^2 = 0,9992481826356
+Angepasstes R^2 = 0,9990978191627
+RMSE (Standardabweichung) = 0,02667904159603
+RSS (Summe der quadrierten Restwerte) = 0,007829483865307
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:18:19	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,6912479596923e+00 +/- 3,9349779165230e-02
+t = 1,2635630590617e+02 +/- 3,0704047586407e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6441781020440e-03
+R^2 = 0,9936857037998
+Angepasstes R^2 = 0,9924228445597
+RMSE (Standardabweichung) = 0,06814820688796
+RSS (Summe der quadrierten Restwerte) = 0,05108595912248
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:18:33	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,8294905286263e+00 +/- 3,4948776317752e-02
+t = 1,2764480857994e+02 +/- 2,3745770234070e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,6700702180559e-03
+R^2 = 0,9963113887064
+Angepasstes R^2 = 0,9955736664477
+RMSE (Standardabweichung) = 0,06058110446382
+RSS (Summe der quadrierten Restwerte) = 0,04037077239861
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:18:56	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,6912479437433e+00 +/- 3,9349779021308e-02
+t = 1,2635630745466e+02 +/- 3,0704048316058e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6441781020443e-03
+R^2 = 0,9936857037998
+Angepasstes R^2 = 0,9924228445597
+RMSE (Standardabweichung) = 0,06814820688796
+RSS (Summe der quadrierten Restwerte) = 0,05108595912249
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:21:33	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A+exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 5,7305812836547e+00 +/- 5,2680034826201e-01
+t = 2,1479760369891e+01 +/- 4,0832372859392e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6505107027487e-01
+R^2 = 0,5087839459215
+Angepasstes R^2 = 0,4105407351058
+RMSE (Standardabweichung) = 0,6819465303635
+RSS (Summe der quadrierten Restwerte) = 5,115561773024
+---------------------------------------------------------------------------------------
+Iterationen = 14
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:21:47	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,6213527892856e+00 +/- 1,5398119912970e-02
+t = 1,2697738796218e+02 +/- 1,0644442656369e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,1177126048706e-04
+R^2 = 0,9992481826356
+Angepasstes R^2 = 0,9990978191627
+RMSE (Standardabweichung) = 0,02667904159611
+RSS (Summe der quadrierten Restwerte) = 0,007829483865358
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:21:51	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,6912479599004e+00 +/- 3,9349779159455e-02
+t = 1,2635630588597e+02 +/- 3,0704047587067e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6441781020439e-03
+R^2 = 0,9936857037998
+Angepasstes R^2 = 0,9924228445597
+RMSE (Standardabweichung) = 0,06814820688796
+RSS (Summe der quadrierten Restwerte) = 0,05108595912248
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 02:21:55	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,8294905282483e+00 +/- 3,4948776241667e-02
+t = 1,2764480861218e+02 +/- 2,3745770219403e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,6700702180558e-03
+R^2 = 0,9963113887064
+Angepasstes R^2 = 0,9955736664477
+RMSE (Standardabweichung) = 0,06058110446382
+RSS (Summe der quadrierten Restwerte) = 0,04037077239861
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+
+[29.09.2015 05:24:52	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,6213527892856e+00 +/- 1,5398119912970e-02
+t = 1,2697738796218e+02 +/- 1,0644442656369e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,1177126048706e-04
+R^2 = 0,9992481826356
+Angepasstes R^2 = 0,9990978191627
+RMSE (Standardabweichung) = 0,02667904159611
+RSS (Summe der quadrierten Restwerte) = 0,007829483865358
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 05:24:54	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,6213528998854e+00 +/- 1,5398120006215e-02
+t = 1,2697737904685e+02 +/- 1,0644441187836e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,1177126048247e-04
+R^2 = 0,9992481826356
+Angepasstes R^2 = 0,9990978191627
+RMSE (Standardabweichung) = 0,02667904159603
+RSS (Summe der quadrierten Restwerte) = 0,007829483865307
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 05:24:59	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,7368121195336e+00 +/- 2,1786469734379e-02
+t = 1,2410515676255e+02 +/- 1,6334735840005e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,4190193865367e-03
+R^2 = 0,998141161141
+Angepasstes R^2 = 0,9977693933692
+RMSE (Standardabweichung) = 0,03766987372605
+RSS (Summe der quadrierten Restwerte) = 0,0156092132519
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 05:25:00	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,7368121553997e+00 +/- 2,1786469786047e-02
+t = 1,2410515341563e+02 +/- 1,6334735003785e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,4190193865361e-03
+R^2 = 0,998141161141
+Angepasstes R^2 = 0,9977693933692
+RMSE (Standardabweichung) = 0,03766987372604
+RSS (Summe der quadrierten Restwerte) = 0,0156092132519
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 05:25:10	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,6213528889934e+00 +/- 1,5398120017789e-02
+t = 1,2697737997824e+02 +/- 1,0644441361273e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,1177126048253e-04
+R^2 = 0,9992481826356
+Angepasstes R^2 = 0,9990978191627
+RMSE (Standardabweichung) = 0,02667904159603
+RSS (Summe der quadrierten Restwerte) = 0,007829483865308
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 05:25:10	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,6213528998803e+00 +/- 1,5398120024017e-02
+t = 1,2697737904830e+02 +/- 1,0644441224953e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,1177126048247e-04
+R^2 = 0,9992481826356
+Angepasstes R^2 = 0,9990978191627
+RMSE (Standardabweichung) = 0,02667904159603
+RSS (Summe der quadrierten Restwerte) = 0,007829483865307
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 05:25:14	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,7368121194667e+00 +/- 2,1786469694323e-02
+t = 1,2410515676852e+02 +/- 1,6334735856708e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,4190193865367e-03
+R^2 = 0,998141161141
+Angepasstes R^2 = 0,9977693933692
+RMSE (Standardabweichung) = 0,03766987372605
+RSS (Summe der quadrierten Restwerte) = 0,0156092132519
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 05:25:14	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 6,7368121554084e+00 +/- 2,1786469765000e-02
+t = 1,2410515341484e+02 +/- 1,6334735009088e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,4190193865361e-03
+R^2 = 0,998141161141
+Angepasstes R^2 = 0,9977693933692
+RMSE (Standardabweichung) = 0,03766987372604
+RSS (Summe der quadrierten Restwerte) = 0,0156092132519
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 05:25:20	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,8294904814976e+00 +/- 3,4948776279368e-02
+t = 1,2764481252147e+02 +/- 2,3745771665532e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,6700702180575e-03
+R^2 = 0,9963113887064
+Angepasstes R^2 = 0,9955736664477
+RMSE (Standardabweichung) = 0,06058110446383
+RSS (Summe der quadrierten Restwerte) = 0,04037077239863
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[29.09.2015 05:25:21	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+01
+A = 7,8294905471038e+00 +/- 3,4948776326373e-02
+t = 1,2764480702218e+02 +/- 2,3745769643401e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,6700702180557e-03
+R^2 = 0,9963113887064
+Angepasstes R^2 = 0,9955736664477
+RMSE (Standardabweichung) = 0,06058110446382
+RSS (Summe der quadrierten Restwerte) = 0,04037077239861
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+</log>

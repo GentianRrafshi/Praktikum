@@ -1,0 +1,309 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	38	3	24.04.2015 02:41:53
+geometry	0	0	445	220	
+header	Winkel[X]	LaserrotuA[Y]	LasergrünuA[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0.00000000000000e+00	3.25800000000000e+01	2.92500000000000e+01
+1	1.00000000000000e+01	3.22000000000000e+01	2.88500000000000e+01
+2	2.00000000000000e+01	2.99000000000000e+01	2.67300000000000e+01
+3	3.00000000000000e+01	2.66400000000000e+01	2.32800000000000e+01
+4	4.00000000000000e+01	2.12400000000000e+01	1.86600000000000e+01
+5	5.00000000000000e+01	1.55800000000000e+01	1.38000000000000e+01
+6	6.00000000000000e+01	9.71000000000000e+00	8.85000000000000e+00
+7	7.00000000000000e+01	5.11000000000000e+00	4.45000000000000e+00
+8	8.00000000000000e+01	1.72000000000000e+00	1.54000000000000e+00
+9	9.00000000000000e+01	1.00000000000000e-01	8.00000000000000e-02
+10	1.00000000000000e+02	5.20000000000000e-01	4.30000000000000e-01
+11	1.10000000000000e+02	2.78000000000000e+00	2.44000000000000e+00
+12	1.20000000000000e+02	6.97000000000000e+00	6.40000000000000e+00
+13	1.30000000000000e+02	1.20500000000000e+01	1.10800000000000e+01
+14	1.40000000000000e+02	1.74200000000000e+01	1.62600000000000e+01
+15	1.50000000000000e+02	2.33700000000000e+01	2.09300000000000e+01
+16	1.60000000000000e+02	2.79300000000000e+01	2.49400000000000e+01
+17	1.70000000000000e+02	3.10500000000000e+01	2.78500000000000e+01
+18	1.80000000000000e+02	3.25100000000000e+01	2.82700000000000e+01
+19	1.90000000000000e+02	3.22400000000000e+01	2.88200000000000e+01
+20	2.00000000000000e+02	3.00400000000000e+01	2.66700000000000e+01
+21	2.10000000000000e+02	2.61400000000000e+01	1.87800000000000e+01
+22	2.20000000000000e+02	2.05200000000000e+01	1.36500000000000e+01
+23	2.30000000000000e+02	1.54300000000000e+01	8.90000000000000e+00
+24	2.40000000000000e+02	9.68000000000000e+00	4.20000000000000e+00
+25	2.50000000000000e+02	4.85000000000000e+00	4.03000000000000e+00
+26	2.60000000000000e+02	1.46000000000000e+00	1.90000000000000e+00
+27	2.70000000000000e+02	6.00000000000000e-02	8.00000000000000e-02
+28	2.80000000000000e+02	4.30000000000000e-01	5.10000000000000e-01
+29	2.90000000000000e+02	3.08000000000000e+00	2.78000000000000e+00
+30	3.00000000000000e+02	7.33000000000000e+00	6.29000000000000e+00
+31	3.10000000000000e+02	1.22400000000000e+01	1.17800000000000e+01
+32	3.20000000000000e+02	1.81400000000000e+01	1.64600000000000e+01
+33	3.30000000000000e+02	2.36100000000000e+01	2.10000000000000e+01
+34	3.40000000000000e+02	2.82900000000000e+01	2.53100000000000e+01
+35	3.50000000000000e+02	3.11200000000000e+01	2.81200000000000e+01
+36	3.60000000000000e+02	3.24700000000000e+01	2.92500000000000e+01
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	24.04.2015 02:43:19
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	7	11	1262	826
+PlotTitle	Intensität-Winkel-Diagramm ohne Küvette	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Winkel in [°]	Intensität in [μA]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	21	75	0	0	0
+ScaleFont0	Arial Black	17	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont2	Arial Black	17	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	17	75	0	0	0
+AxisFont0	MS Shell Dlg 2	17	50	0	0	0
+AxisFont1	MS Shell Dlg 2	17	50	0	0	0
+AxisFont2	MS Shell Dlg 2	17	50	0	0	0
+AxisFont3	MS Shell Dlg 2	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_Winkel	Tabelle1_LaserrotuA	2	1	#ff0000	0	1	7	1	#ff0000	#ff0000	0	#000000	14	1	2	0	0	37	1
+curve	Tabelle1_Winkel	Tabelle1_LasergrünuA	2	1	#00ff00	0	1	7	2	#00ff00	#00ff00	0	#000000	14	1	2	0	0	37	1
+scale	0	-5	35	0	8	5	0	0
+scale	1	-5	35	0	8	5	0	0
+scale	2	-50	400	0	10	5	0	0
+scale	3	-50	400	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>199.05172413793</x>
+<y>34.94301994302</y>
+<right>355.775862068966</right>
+<bottom>31.4672364672365</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Messung ohne Küvette roter Laser
+\l(2) Messung ohne Küvette grüner Laser
+</Text>
+<Font>MS Shell Dlg 2	16	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[28.04.2015 09:11:34	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_LaserrotuA, unter Verwendung der Funktion: a*sin(b*(x-c))+d
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,000000000000000e+00 bis x = 3,600000000000000e+02
+a = -8,909904358180343e-01 +/- 2,895696989610723e+00
+b = 1,027161222242331e+00 +/- 3,030901613879775e-02
+c = 7,189073454112283e+00 +/- 5,989877693717673e+00
+d = 1,690631248785689e+01 +/- 2,040533568600960e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,537883786245592e+02
+R^2 = 0,00287184454099393
+Angepasstes R^2 = -0,121769174891382
+RMSE (Standardabweichung) = 12,401144246583
+RSS (Summe der quadrierten Restwerte) = 5.075,01649461045
+---------------------------------------------------------------------------------------
+Iterationen = 13
+Status = success
+---------------------------------------------------------------------------------------
+[28.04.2015 09:11:56	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_LaserrotuA, unter Verwendung der Funktion: a*sin(b*((x*2*pi/360)-c))+d
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,000000000000000e+00 bis x = 3,600000000000000e+02
+a = 1,721640945163716e+00 +/- 2,887235321577813e+00
+b = 6,338355683010879e+00 +/- 8,916512745087483e-01
+c = 9,837209057755617e+00 +/- 9,786134124837965e-01
+d = 1,684425803001033e+01 +/- 2,036185371078669e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,525829221644521e+02
+R^2 = 0,0106877444633614
+Angepasstes R^2 = -0,112976287478718
+RMSE (Standardabweichung) = 12,3524459992526
+RSS (Summe der quadrierten Restwerte) = 5.035,23643142692
+---------------------------------------------------------------------------------------
+Iterationen = 11
+Status = success
+---------------------------------------------------------------------------------------
+[28.04.2015 09:12:18	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_LaserrotuA, unter Verwendung der Funktion: a*sin(b*((x*2*pi/360)+c))+d
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,000000000000000e+00 bis x = 3,600000000000000e+02
+a = -1,490468329091358e+00 +/- 2,888508140543026e+00
+b = -7,310488919495896e+00 +/- 1,032192275410138e+00
+c = 2,500769260513086e+01 +/- 3,983496957670236e+00
+d = 1,686512898195103e+01 +/- 2,037699222167400e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,529940272363495e+02
+R^2 = 0,00802223458734173
+Angepasstes R^2 = -0,115974986089241
+RMSE (Standardabweichung) = 12,3690754398358
+RSS (Summe der quadrierten Restwerte) = 5.048,80289879953
+---------------------------------------------------------------------------------------
+Iterationen = 10
+Status = success
+---------------------------------------------------------------------------------------
+[28.04.2015 09:13:15	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_LaserrotuA, unter Verwendung der Funktion: a*sin(b*((x*2*3.14/360)-c))+d
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,000000000000000e+00 bis x = 3,600000000000000e+02
+a = -1,490432321618883e+00 +/- 2,888475580017210e+00
+b = 7,314067619449883e+00 +/- 1,032776677560467e+00
+c = 8,937159583569462e+00 +/- 8,596851101958689e-01
+d = 1,686512810794921e+01 +/- 2,037698873673274e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,529940270936142e+02
+R^2 = 0,00802223551280375
+Angepasstes R^2 = -0,115974985048096
+RMSE (Standardabweichung) = 12,369075434066
+RSS (Summe der quadrierten Restwerte) = 5.048,80289408927
+---------------------------------------------------------------------------------------
+Iterationen = 12
+Status = success
+---------------------------------------------------------------------------------------
+[28.04.2015 09:15:15	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_LaserrotuA, unter Verwendung der Funktion: a*sin(b*((x*2*pi)/360) - c) +d
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,000000000000000e+00 bis x = 3,600000000000000e+02
+a = -1,721578015546791e+00 +/- 2,887238028241099e+00
+b = 6,338366141182195e+00 +/- 8,916812251157579e-01
+c = 1,522792095242203e+01 +/- 3,255112497600170e+00
+d = 1,684427383958255e+01 +/- 2,036185412699334e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,525829221620140e+02
+R^2 = 0,0106877444791697
+Angepasstes R^2 = -0,112976287460934
+RMSE (Standardabweichung) = 12,3524459991539
+RSS (Summe der quadrierten Restwerte) = 5.035,23643134646
+---------------------------------------------------------------------------------------
+Iterationen = 14
+Status = success
+---------------------------------------------------------------------------------------
+[28.04.2015 09:15:53	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_LaserrotuA, unter Verwendung der Funktion: a*sin(b*((x*2*pi)/360) + c) +d
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,000000000000000e+00 bis x = 3,600000000000000e+02
+a = 1,242823402575293e+00 +/- 2,887472406514081e+00
+b = -9,247282631229579e+00 +/- 1,243375061578906e+00
+c = 3,374307168203357e+01 +/- 4,544932131707594e+00
+d = 1,688620598797975e+01 +/- 2,038810114545683e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,533684234531113e+02
+R^2 = 0,00559473640854865
+Angepasstes R^2 = -0,118705921540383
+RMSE (Standardabweichung) = 12,3842005576909
+RSS (Summe der quadrierten Restwerte) = 5.061,15797395268
+---------------------------------------------------------------------------------------
+Iterationen = 12
+Status = success
+---------------------------------------------------------------------------------------
+[28.04.2015 09:16:49	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_LaserrotuA, unter Verwendung der Funktion: a*sin(b*((x*2*pi)/360) - c) +d
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 3,6000000000000e+02
+a = -1,7215780155468e+00 +/- 2,8872380282411e+00
+b = 6,3383661411822e+00 +/- 8,9168122511576e-01
+c = 1,5227920952422e+01 +/- 3,2551124976002e+00
+d = 1,6844273839583e+01 +/- 2,0361854126993e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,5258292216201e+02
+R^2 = 0,01068774447917
+Angepasstes R^2 = -0,1129762874609
+RMSE (Standardabweichung) = 12,35244599915
+RSS (Summe der quadrierten Restwerte) = 5.035,236431346
+---------------------------------------------------------------------------------------
+Iterationen = 14
+Status = success
+---------------------------------------------------------------------------------------
+[28.04.2015 09:17:06	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_LaserrotuA, unter Verwendung der Funktion: a*cos(b*((x*2*pi)/360) - c) +d
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 3,6000000000000e+02
+a = -1,6353541750431e+01 +/- 4,2437573857022e-02
+b = -2,0086359846450e+00 +/- 1,6315696730664e-03
+c = -3,2666487389744e+00 +/- 5,8320487998539e-03
+d = 1,6425618627968e+01 +/- 3,2711452204168e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,3791757548477e-02
+R^2 = 0,9997809020865
+Angepasstes R^2 = 0,9997535148473
+RMSE (Standardabweichung) = 0,1838253452288
+RSS (Summe der quadrierten Restwerte) = 1,1151279991
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[28.04.2015 09:17:16	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_LasergrünuA, unter Verwendung der Funktion: a*cos(b*((x*2*pi)/360) - c) +d
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 3,6000000000000e+02
+a = -1,4479371915304e+01 +/- 2,6720355686567e-01
+b = -2,0390095929998e+00 +/- 1,1851688694561e-02
+c = -3,2845943605587e+00 +/- 4,1947860025685e-02
+d = 1,4011133288898e+01 +/- 2,0658275736668e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,3606730096901e+00
+R^2 = 0,9889881170679
+Angepasstes R^2 = 0,9876116317014
+RMSE (Standardabweichung) = 1,166478893804
+RSS (Summe der quadrierten Restwerte) = 44,90220931977
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+</log>

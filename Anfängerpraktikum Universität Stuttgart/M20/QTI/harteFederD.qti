@@ -1,0 +1,251 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	2	04.07.2015 10:35:24
+geometry	0	0	641	879	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	2.15000000000000e-01	9.81000000000000e-01
+1	2.25000000000000e-01	1.96200000000000e+00
+2	2.35000000000000e-01	2.94300000000000e+00
+3	2.45000000000000e-01	3.92400000000000e+00
+4	2.55000000000000e-01	4.90500000000000e+00
+5	2.65000000000000e-01	5.88600000000000e+00
+6	2.75000000000000e-01	6.86700000000000e+00
+7	2.85000000000000e-01	7.84800000000000e+00
+8	2.95000000000000e-01	8.82900000000000e+00
+9	3.05000000000000e-01	9.81000000000000e+00
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	04.07.2015 10:37:11
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	12	13	1251	824
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	1	1	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Auslenkung x in [m]	Federkraft F [N]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	21	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	18	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	17	75	0	0	0
+AxisFont0	MS Shell Dlg 2	17	50	0	0	0
+AxisFont1	MS Shell Dlg 2	17	50	0	0	0
+AxisFont2	MS Shell Dlg 2	17	50	0	0	0
+AxisFont3	MS Shell Dlg 2	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	11	1	#000000	#00ffff	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.215	0.305</Range>
+<Points>2</Points>
+<Constant>A	98.1</Constant>
+<Constant>B	-20.1105</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#808080</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	10	0	6	5	0	0
+scale	1	0	10	0	8	5	0	0
+scale	2	0.2	0.32	0	7	5	0	0
+scale	3	0.2	0.32	0	7	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.20279069767442</x>
+<y>9.3293591654247</y>
+<right>0.26046511627907</right>
+<bottom>8.76304023845007</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Rechenergebnisse
+\l(2)%(2)
+</Text>
+<Font>MS Shell Dlg 2	17	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[04.07.2015 10:37:24	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,2000000000000e-01 bis x = 3,1000000000000e-01
+B (y-intercept) = -2,0601000000000e+01 +/- 4,2895866781377e-15
+A (slope) = 9,8100000000000e+01 +/- 1,6092866432824e-14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,1365878877039e-30
+R^2 = 1
+Angepasstes R^2 = 1
+RMSE (Standardabweichung) = 1,502336382141e-15
+RSS (Summe der quadrierten Restwerte) = 1,805611684083e-29
+---------------------------------------------------------------------------------------
+
+
+[04.07.2015 11:39:40	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 1,0000000000000e-02 bis x = 1,0000000000000e-01
+B (y-intercept) = -2,8505497382199e-01 +/- 2,2323320963809e-01
+A (slope) = 1,0143848167539e+02 +/- 3,5745921727331e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9,7621698298429e-02
+R^2 = 0,9901634142472
+Angepasstes R^2 = 0,987352961175
+RMSE (Standardabweichung) = 0,3124447123867
+RSS (Summe der quadrierten Restwerte) = 0,7809735863874
+---------------------------------------------------------------------------------------
+[04.07.2015 11:41:26	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 1,0000000000000e-02 bis x = 1,0000000000000e-01
+B (y-intercept) = -1,5385200378668e-01 +/- 1,0725642773384e-01
+A (slope) = 9,9988324392553e+01 +/- 1,7235647964456e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,3535177500789e-02
+R^2 = 0,9976285416487
+Angepasstes R^2 = 0,9969509821198
+RMSE (Standardabweichung) = 0,1534117906185
+RSS (Summe der quadrierten Restwerte) = 0,1882814200063
+---------------------------------------------------------------------------------------
+[04.07.2015 11:42:43	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e-02 bis x = 1,0000000000000e-01
+A = 9,7783344056935e+01 +/- 8,2411689706926e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,6300806326662e-02
+R^2 = 0,9970186043782
+Angepasstes R^2 = 0,9966459299255
+RMSE (Standardabweichung) = 0,1621752333948
+RSS (Summe der quadrierten Restwerte) = 0,23670725694
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[04.07.2015 11:50:10	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e-02 bis x = 1,0000000000000e-01
+A = 9,8100000000000e+01 +/- 3,4572298126502e-15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6016886137892e-31
+R^2 = 1
+Angepasstes R^2 = 1
+RMSE (Standardabweichung) = 6,783574731503e-16
+RSS (Summe der quadrierten Restwerte) = 4,14151975241e-30
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+
+[04.07.2015 12:28:21	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e-02 bis x = 1,0000000000000e-01
+A = 9,8100000057007e+01 +/- 9,6708650230730e-09
+B = -2,6910686727213e-09 +/- 5,9242260429400e-10
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,5980430583140e-18
+R^2 = 1
+Angepasstes R^2 = 1
+RMSE (Standardabweichung) = 1,896850826584e-09
+RSS (Summe der quadrierten Restwerte) = 2,878434446651e-17
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+
+
+
+[06.07.2015 00:34:07	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,1500000000000e-01 bis x = 3,0500000000000e-01
+B (y-intercept) = -2,0651458504260e+01 +/- 4,5160193439256e-01
+A (slope) = 9,9988324392553e+01 +/- 1,7235647964456e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,3535177500789e-02
+R^2 = 0,9976285416487
+Angepasstes R^2 = 0,9969509821198
+RMSE (Standardabweichung) = 0,1534117906185
+RSS (Summe der quadrierten Restwerte) = 0,1882814200063
+---------------------------------------------------------------------------------------
+[06.07.2015 00:34:52	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,1500000000000e-01 bis x = 3,0500000000000e-01
+B (y-intercept) = -2,0110500000000e+01 +/- 4,2095997969452e-15
+A (slope) = 9,8100000000000e+01 +/- 1,6092866432824e-14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,1365878877039e-30
+R^2 = 1
+Angepasstes R^2 = 1
+RMSE (Standardabweichung) = 1,467219999323e-15
+RSS (Summe der quadrierten Restwerte) = 1,72218762113e-29
+---------------------------------------------------------------------------------------
+</log>

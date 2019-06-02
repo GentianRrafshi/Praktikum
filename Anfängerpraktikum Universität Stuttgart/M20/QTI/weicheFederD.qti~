@@ -1,0 +1,162 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	2	04.07.2015 10:27:45
+geometry	641	0	639	879	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	2.70000000000000e-01	4.90000000000000e-01
+1	2.90000000000000e-01	9.80000000000000e-01
+2	3.10000000000000e-01	1.47000000000000e+00
+3	3.30000000000000e-01	1.96000000000000e+00
+4	3.50000000000000e-01	2.45000000000000e+00
+5	3.70000000000000e-01	2.94000000000000e+00
+6	3.90000000000000e-01	3.43000000000000e+00
+7	4.20000000000000e-01	3.92000000000000e+00
+8	4.30000000000000e-01	4.41000000000000e+00
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	04.07.2015 10:32:11
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	514	681
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	47	3	1223	836
+PlotTitle	 	#000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Auslenkung x in [m]	Federkraft F [N]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	24	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	19	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	19	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	19	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	19	75	0	0	0
+AxisFont0	MS Shell Dlg 2	19	50	0	0	0
+AxisFont1	MS Shell Dlg 2	19	50	0	0	0
+AxisFont2	MS Shell Dlg 2	19	50	0	0	0
+AxisFont3	MS Shell Dlg 2	19	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	11	3	#000000	#00ffff	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.27	0.43</Range>
+<Points>2</Points>
+<Constant>A	23.832601054482</Constant>
+<Constant>B	-5.9178910369069</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#808080</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	4.5	0	8	5	0	0
+scale	1	0	4.5	0	8	5	0	0
+scale	2	0.25	0.45	0	8	5	0	0
+scale	3	0.25	0.45	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.257434</x>
+<y>4.02301</y>
+<right>0.265803814713896</right>
+<bottom>4.22987721691678</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Rechenergebnisse 
+\l(2) Fitgeraden
+</Text>
+<Font>MS Shell Dlg 2	19	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[04.07.2015 10:33:08	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,7000000000000e-01 bis x = 4,3000000000000e-01
+B (y-intercept) = -5,9178910369069e+00 +/- 1,7314936919694e-01
+A (slope) = 2,3832601054482e+01 +/- 4,8762111686503e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,0130492091388e-03
+R^2 = 0,9970782073814
+Angepasstes R^2 = 0,9961042765085
+RMSE (Standardabweichung) = 0,07754385345815
+RSS (Summe der quadrierten Restwerte) = 0,04209134446397
+---------------------------------------------------------------------------------------
+
+[04.07.2015 12:29:30	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,7000000000000e-01 bis x = 4,3000000000000e-01
+A = 7,3534543525519e+00 +/- 8,8223876790014e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8,8326618236694e-01
+R^2 = 0,5095009399601
+Angepasstes R^2 = 0,4394296456686
+RMSE (Standardabweichung) = 0,9398224206556
+RSS (Summe der quadrierten Restwerte) = 7,066129458935
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+
+
+</log>

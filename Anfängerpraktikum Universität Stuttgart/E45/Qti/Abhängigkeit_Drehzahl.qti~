@@ -1,0 +1,178 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	3	02.06.2015 15:32:27
+geometry	641	0	639	879	
+header	1[X]	2[Y]	3[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	2.50000000000000e+02	2.61000000000000e+00	4.40000000000000e-01
+1	5.00000000000000e+02	7.19000000000000e+00	6.50000000000000e-01
+2	7.50000000000000e+02	1.15400000000000e+01	1.74000000000000e+00
+3	1.00000000000000e+03	1.59000000000000e+01	1.96000000000000e+00
+4	1.25000000000000e+03	1.82900000000000e+01	2.83000000000000e+00
+5	1.50000000000000e+03	2.09100000000000e+01	3.48000000000000e+00
+6	1.75000000000000e+03	2.43900000000000e+01	4.36000000000000e+00
+7	2.00000000000000e+03	2.72200000000000e+01	5.44000000000000e+00
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	02.06.2015 15:32:52
+geometry	0	0	973	650	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	6	8	947	573
+PlotTitle	 	#000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Drehzahl [ <sup>U</sup>/<sub>min</sub> ]	Bremsdrehmoment [mNm]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont0	Arial Black	12	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	12	75	0	0	0
+ScaleFont2	Arial Black	12	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	12	75	0	0	0
+AxisFont0	MS Shell Dlg 2	12	50	0	0	0
+AxisFont1	MS Shell Dlg 2	12	50	0	0	0
+AxisFont2	MS Shell Dlg 2	12	50	0	0	0
+AxisFont3	MS Shell Dlg 2	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	11	3	#00aaff	#00aaff	0	#000000	14	1	2	0	0	29	1
+curve	Tabelle1_1	Tabelle1_3	1	0	#ff0000	0	1	7	2	#ffaa00	#ffaa00	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>250	2000</Range>
+<Points>2</Points>
+<Constant>A	0.0137509523809524</Constant>
+<Constant>B	0.536428571428571</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#808080</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>LinearFit2</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>250	2000</Range>
+<Points>2</Points>
+<Constant>A	0.00284</Constant>
+<Constant>B	-0.5825</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#808080</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	30	0	7	5	0	0
+scale	1	0	30	0	8	5	0	0
+scale	2	0	2150	0	6	5	0	0
+scale	3	0	2150	0	6	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#808080</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>85.511363636364</x>
+<y>29.365750528541</y>
+<right>935.738636363636</right>
+<bottom>24.6723044397463</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Messwerte bei angeschaltener Spule
+\l(2) Messwerte bei ausgeschaltener Spule
+\l(3) Fitgeraden
+</Text>
+<Font>MS Shell Dlg 2	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[02.06.2015 15:52:20	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,5000000000000e+02 bis x = 2,0000000000000e+03
+B (y-intercept) = 5,3642857142857e-01 +/- 7,8465314798433e-01
+A (slope) = 1,3750952380952e-02 +/- 6,2153790925248e-04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,0140621031746e+00
+R^2 = 0,9878904025768
+Angepasstes R^2 = 0,9830465636075
+RMSE (Standardabweichung) = 1,007006506024
+RSS (Summe der quadrierten Restwerte) = 6,084372619048
+---------------------------------------------------------------------------------------
+[02.06.2015 15:52:38	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,5000000000000e+02 bis x = 2,0000000000000e+03
+B (y-intercept) = -5,8250000000000e-01 +/- 2,0964752164844e-01
+A (slope) = 2,8400000000000e-03 +/- 1,6606558276108e-04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,2391666666667e-02
+R^2 = 0,9798972996614
+Angepasstes R^2 = 0,971856219526
+RMSE (Standardabweichung) = 0,2690569952011
+RSS (Summe der quadrierten Restwerte) = 0,43435
+---------------------------------------------------------------------------------------
+</log>

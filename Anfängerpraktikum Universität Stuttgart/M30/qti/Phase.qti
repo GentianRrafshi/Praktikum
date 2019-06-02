@@ -1,0 +1,280 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	3	17.07.2015 02:17:05
+geometry	641	0	639	879	
+header	1[X]	2[Y]	3[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	1.25600000000000e+00	4.50000000000000e+00	4.50000000000000e+00
+1	1.88400000000000e+00	6.00000000000000e+00	6.00000000000000e+00
+2	2.19800000000000e+00	6.75000000000000e+00	6.75000000000000e+00
+3	2.51200000000000e+00	8.25000000000000e+00	8.25000000000000e+00
+4	2.82600000000000e+00	1.27500000000000e+01	1.27500000000000e+01
+5	3.14000000000000e+00	2.55000000000000e+01	2.25000000000000e+01
+6	3.26560000000000e+00	6.75000000000000e+01	4.05000000000000e+01
+7	3.39120000000000e+00	1.05000000000000e+02	4.95000000000000e+01
+8	3.51680000000000e+00	1.42500000000000e+02	5.70000000000000e+01
+9	3.64240000000000e+00	1.51500000000000e+02	7.50000000000000e+01
+10	3.76800000000000e+00	1.66500000000000e+02	7.65000000000000e+01
+11	4.08200000000000e+00	1.74000000000000e+02	8.40000000000000e+01
+12	4.39600000000000e+00	1.74750000000000e+02	8.47500000000000e+01
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	17.07.2015 02:17:29
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	12	9	1253	826
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	1
+EnabledAxes	1	0	1	0	
+AxesTitles	Frequenz ω [<sup>1</sup>/<sub>s</sub>]	Auslenkung Φ [°]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	22	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	17	75	0	0	0
+AxisFont0	MS Shell Dlg 2	17	50	0	0	0
+AxisFont1	MS Shell Dlg 2	17	50	0	0	0
+AxisFont2	MS Shell Dlg 2	17	50	0	0	0
+AxisFont3	MS Shell Dlg 2	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	11	2	#000000	#00ffff	0	#000000	14	1	2	0	0	29	1
+curve	Tabelle1_1	Tabelle1_3	1	0	#00ff00	0	1	11	2	#000000	#ff8000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>BoltzmannFit1</Title>
+<Expression>A2+(A1-A2)/(1+exp((x-x0)/dx))</Expression>
+<Variable>x</Variable>
+<Range>1.256	4.396</Range>
+<Points>100</Points>
+<Constant>A1	6.5002216331099</Constant>
+<Constant>A2	172.24802629366</Constant>
+<Constant>dx	0.12213628211515</Constant>
+<Constant>x0	3.345107371223</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#808080</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>BoltzmannFit2</Title>
+<Expression>A2+(A1-A2)/(1+exp((x-x0)/dx))</Expression>
+<Variable>x</Variable>
+<Range>1.256	4.396</Range>
+<Points>100</Points>
+<Constant>A1	6.21777930422508</Constant>
+<Constant>A2	85.7393961182989</Constant>
+<Constant>dx	0.194758440779205</Constant>
+<Constant>x0	3.35701210105271</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#008000</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	180	0	8	5	0	0
+scale	1	0	180	0	8	5	0	0
+scale	2	1	4.5	0	8	5	0	0
+scale	3	1	4.5	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<line>	3.338	0	3.338	180	1	#000000	SolidLine	0	0	4	45	1	1</line>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1.0917030567686</x>
+<y>170.53941908714</y>
+<right>2.05152838427948</right>
+<bottom>138.921161825726</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) schwache Dämpfung
+\l(2) starke Dämpfung
+\l(3) Fit schwache Dämpfung
+\l(4) Fit starke Dämpfung
+</Text>
+<Font>MS Shell Dlg 2	17	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>3.2589519650655</x>
+<y>-0.24896265560166</y>
+<right>3.4056768558952</right>
+<bottom>-9.70954356846473</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+ω<sub>0</sub>
+</Text>
+<Font>Arial Black	14	87	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[17.07.2015 02:17:33	Diagramm: ''Grafik1'']
+Boltzmann (Sigmoidal) Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 7,0000000000000e-01
+A1 (Anfangswert) = 6,5002214231315e+00 +/- 1,9517098334957e+00
+A2 (Endwert) = 1,7224796150619e+02 +/- 2,6383542847751e+00
+x0 (Zentrum) = 5,3266036734376e-01 +/- 1,6255513248471e-03
+dx (Zeitkonstante) = 1,9448411041946e-02 +/- 1,4508695556364e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,8208993487912e+01
+R^2 = 0,9974503525808
+Angepasstes R^2 = 0,9961755288712
+RMSE (Standardabweichung) = 4,267199724399
+RSS (Summe der quadrierten Restwerte) = 163,8809413912
+---------------------------------------------------------------------------------------
+Iterationen = 13
+Status = success
+---------------------------------------------------------------------------------------
+[17.07.2015 02:18:16	Diagramm: ''Grafik1'']
+Boltzmann (Sigmoidal) Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 7,0000000000000e-01
+A1 (Anfangswert) = 6,2177920755687e+00 +/- 1,3960656257684e+00
+A2 (Endwert) = 8,5739368565814e+01 +/- 2,1922631462292e+00
+x0 (Zentrum) = 5,3455605960370e-01 +/- 3,3348991990438e-03
+dx (Zeitkonstante) = 3,1012420146826e-02 +/- 3,1725769496415e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,7454305488334e+00
+R^2 = 0,9944004784154
+Angepasstes R^2 = 0,9916007176231
+RMSE (Standardabweichung) = 2,78306136275
+RSS (Summe der quadrierten Restwerte) = 69,7088749395
+---------------------------------------------------------------------------------------
+Iterationen = 10
+Status = success
+---------------------------------------------------------------------------------------
+[17.07.2015 02:18:50	Diagramm: ''Grafik1'']
+Boltzmann (Sigmoidal) Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 7,0000000000000e-01
+A1 (Anfangswert) = 6,2177920755687e+00 +/- 1,3960656257684e+00
+A2 (Endwert) = 8,5739368565814e+01 +/- 2,1922631462292e+00
+x0 (Zentrum) = 5,3455605960370e-01 +/- 3,3348991990438e-03
+dx (Zeitkonstante) = 3,1012420146826e-02 +/- 3,1725769496415e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,7454305488334e+00
+R^2 = 0,9944004784154
+Angepasstes R^2 = 0,9916007176231
+RMSE (Standardabweichung) = 2,78306136275
+RSS (Summe der quadrierten Restwerte) = 69,7088749395
+---------------------------------------------------------------------------------------
+Iterationen = 10
+Status = success
+---------------------------------------------------------------------------------------
+[17.07.2015 02:23:00	Diagramm: ''Grafik1'']
+Boltzmann (Sigmoidal) Fit von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,2560000000000e+00 bis x = 4,3960000000000e+00
+A1 (Anfangswert) = 6,5002216331099e+00 +/- 1,9517102312949e+00
+A2 (Endwert) = 1,7224802629366e+02 +/- 2,6383572843235e+00
+x0 (Zentrum) = 3,3451073712230e+00 +/- 1,0208476061410e-02
+dx (Zeitkonstante) = 1,2213628211515e-01 +/- 9,1114735743016e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,8208993498417e+01
+R^2 = 0,9974503525793
+Angepasstes R^2 = 0,996175528869
+RMSE (Standardabweichung) = 4,26719972563
+RSS (Summe der quadrierten Restwerte) = 163,8809414857
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[17.07.2015 02:23:07	Diagramm: ''Grafik1'']
+Boltzmann (Sigmoidal) Fit von Datensatz: Tabelle1_3, unter Verwendung der Funktion: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,2560000000000e+00 bis x = 4,3960000000000e+00
+A1 (Anfangswert) = 6,2177793042251e+00 +/- 1,3960665833489e+00
+A2 (Endwert) = 8,5739396118299e+01 +/- 2,1922663380189e+00
+x0 (Zentrum) = 3,3570121010527e+00 +/- 2,0943203891989e-02
+dx (Zeitkonstante) = 1,9475844077920e-01 +/- 1,9923825683514e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,7454305483556e+00
+R^2 = 0,9944004784157
+Angepasstes R^2 = 0,9916007176236
+RMSE (Standardabweichung) = 2,783061362664
+RSS (Summe der quadrierten Restwerte) = 69,7088749352
+---------------------------------------------------------------------------------------
+Iterationen = 8
+Status = success
+---------------------------------------------------------------------------------------
+</log>

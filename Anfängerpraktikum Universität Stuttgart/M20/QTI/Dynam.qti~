@@ -1,0 +1,157 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	2	04.07.2015 11:00:49
+geometry	0	0	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	5.00000000000000e-02	1.30000000000000e-01
+1	1.00000000000000e-01	2.20000000000000e-01
+2	1.50000000000000e-01	2.90000000000000e-01
+3	2.00000000000000e-01	3.80000000000000e-01
+4	2.50000000000000e-01	4.60000000000000e-01
+5	3.00000000000000e-01	5.50000000000000e-01
+6	3.50000000000000e-01	6.40000000000000e-01
+7	4.00000000000000e-01	7.20000000000000e-01
+8	4.50000000000000e-01	8.10000000000000e-01
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	04.07.2015 11:02:20
+geometry	445	0	490	456	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	5	5	466	384
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_2	1	0	#000000	0	1	11	1	#000000	#00ffff	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.05	0.45</Range>
+<Points>2</Points>
+<Constant>A	1.69666666666667</Constant>
+<Constant>B	0.0425</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#808080</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0.1	0.9	0	8	5	0	0
+scale	1	0.1	0.9	0	8	5	0	0
+scale	2	0	0.5	0	8	5	0	0
+scale	3	0	0.5	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0077319587628866</x>
+<y>0.87046979865772</y>
+<right>0.149484536082474</right>
+<bottom>0.806040268456376</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[04.07.2015 11:02:29	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+B (y-intercept) = 4,0238888888889e+00 +/- 3,9440828137379e-01
+A (slope) = 1,7083333333333e+02 +/- 1,4017638171039e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,9474126984127e-01
+R^2 = 0,9995289165315
+Angepasstes R^2 = 0,9993718887086
+RMSE (Standardabweichung) = 0,542900791896
+RSS (Summe der quadrierten Restwerte) = 2,063188888889
+---------------------------------------------------------------------------------------
+
+[04.07.2015 11:28:33	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_2, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+B (y-intercept) = 4,2500000000000e-02 +/- 3,8670019011766e-03
+A (slope) = 1,6966666666667e+00 +/- 1,3743685418726e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,8333333333333e-05
+R^2 = 0,9995408950617
+Angepasstes R^2 = 0,9993878600823
+RMSE (Standardabweichung) = 0,005322906474224
+RSS (Summe der quadrierten Restwerte) = 0,0001983333333333
+---------------------------------------------------------------------------------------
+</log>

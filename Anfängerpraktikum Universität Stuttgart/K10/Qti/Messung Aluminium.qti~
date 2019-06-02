@@ -1,0 +1,381 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	3	08.05.2015 12:17:25
+geometry	641	0	639	661	
+header	cm[X]	Aluminium[Y]	1[yEr]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0.00000000000000e+00	7.47860000000000e+02	2.98800000000000e+01
+1	2.50000000000000e+00	5.02860000000000e+02	2.49500000000000e+01
+2	5.00000000000000e+00	3.30360000000000e+02	2.07100000000000e+01
+3	7.50000000000000e+00	2.35360000000000e+02	1.78700000000000e+01
+4	1.00000000000000e+01	1.42960000000000e+02	1.44900000000000e+01
+5	1.25000000000000e+01	1.12360000000000e+02	1.31300000000000e+01
+6	1.50000000000000e+01	6.58600000000000e+01	1.06500000000000e+01
+7	1.75000000000000e+01	4.33600000000000e+01	9.11000000000000e+00
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	08.05.2015 12:29:42
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	12	11	1253	826
+PlotTitle	Zählrate-Dicke-Diagramme	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	<b>Dicke [cm]</b>	Zählrate [1/min]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	21	75	0	0	0
+ScaleFont0	Arial Black	30	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont2	Arial Black	30	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	17	75	0	0	0
+AxisFont0	MS Shell Dlg 2	17	50	0	0	0
+AxisFont1	MS Shell Dlg 2	17	50	0	0	0
+AxisFont2	MS Shell Dlg 2	17	50	0	0	0
+AxisFont3	MS Shell Dlg 2	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_cm	Tabelle1_Aluminium	1	0	#000000	0	1	7	1	#000000	#ffffff	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit1</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	17.675</Range>
+<Points>100</Points>
+<Constant>A	747.64790661325</Constant>
+<Constant>t	6.283672764006</Constant>
+<Constant>y0	-0.28816808650858</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+ErrorBars	1	Tabelle1_cm	Tabelle1_Aluminium	Tabelle1_1	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit2</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	17.675</Range>
+<Points>100</Points>
+<Constant>A	749.03797412685</Constant>
+<Constant>t	6.8</Constant>
+<Constant>y0	-3.3713931881971</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#008000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit3</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	17.675</Range>
+<Points>100</Points>
+<Constant>A	749.03797405869</Constant>
+<Constant>t	5.9</Constant>
+<Constant>y0	-3.3713941049797</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#008000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	20.0855369231877	1096.63315842846	0	10	10	2	0
+scale	1	20.0855369231877	1096.63315842846	0	8	5	2	0
+scale	2	-5	20	0	8	5	0	0
+scale	3	-5	20	0	6	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	-1
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>8.15</x>
+<y>980.60726999297</y>
+<right>-2.7979274611399</right>
+<bottom>902.605082398624</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Messwerte für Aluminium
+\l(2) Fitkurve
+\l(4) Ausgleichsgeraden
+
+</Text>
+<Font>MS Shell Dlg 2	17	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[08.05.2015 12:18:43	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 2,8000000000000e+01
+A (Amplitude) = 9,0551432545720e+02 +/- 4,5293589628398e+01
+t (e-folding time) = 4,8156712796800e+00 +/- 4,2432484516337e-01
+y0 (Offset) = 5,5788180348504e+01 +/- 1,2864010728834e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,5608717485373e+03
+R^2 = 0,9640393703014
+Angepasstes R^2 = 0,959544291589
+RMSE (Standardabweichung) = 39,50786945075
+RSS (Summe der quadrierten Restwerte) = 39.021,79371343
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[08.05.2015 12:22:31	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: z*exp(-a*x)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 2,8000000000000e+01
+a = 1,0000000000000e+00 +/- 1,7101792204441e+03
+z = 1,0000000000000e+00 +/- 2,1074435717928e+03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8,2863277908054e+04
+R^2 = -0,9854342814966
+Angepasstes R^2 = -1,144269024016
+RMSE (Standardabweichung) = 287,8598233656
+RSS (Summe der quadrierten Restwerte) = 2.154.445,225609
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[08.05.2015 12:23:59	Diagramm: ''Grafik1'']
+Boltzmann (Sigmoidal) Fit von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 2,8000000000000e+01
+A1 (Anfangswert) = 1,8876648176423e+03 +/- 1,3900971830231e+03
+A2 (Endwert) = 6,6347981274485e+01 +/- 1,3142465909118e+01
+x0 (Zentrum) = -6,2551836415019e-01 +/- 4,6913686530634e+00
+dx (Zeitkonstante) = 3,6191760772986e+00 +/- 8,7340953968204e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,5622309189456e+03
+R^2 = 0,9654477343656
+Angepasstes R^2 = 0,95943864469
+RMSE (Standardabweichung) = 39,52506696953
+RSS (Summe der quadrierten Restwerte) = 37.493,5420547
+---------------------------------------------------------------------------------------
+Iterationen = 13
+Status = success
+---------------------------------------------------------------------------------------
+[08.05.2015 12:30:21	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,7500000000000e+01
+A (Amplitude) = 7,4337946417343e+02 +/- 1,1427585268821e+01
+t (e-folding time) = 6,1125298575952e+00 +/- 2,6667814186147e-01
+y0 (Offset) = 6,1057235366944e+00 +/- 9,6219632989244e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,2989280034659e+02
+R^2 = 0,9947035431506
+Angepasstes R^2 = 0,9940414860444
+RMSE (Standardabweichung) = 15,16221620828
+RSS (Summe der quadrierten Restwerte) = 5.747,320008665
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[08.05.2015 12:39:21	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: y0+A*exp(-a*x)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,7500000000000e+01
+A = 1,0000000000000e+00 +/- 2,1552592136677e+02
+a = 1,0000000000000e+00 +/- 1,0479111542644e+03
+y0 = 1,0000000000000e+00 +/- 6,0669905869578e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8,5647216701828e+04
+R^2 = -0,9732100650932
+Angepasstes R^2 = -1,21986132323
+RMSE (Standardabweichung) = 292,6554573245
+RSS (Summe der quadrierten Restwerte) = 2.141.180,417546
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+
+
+[08.05.2015 14:26:13	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,7500000000000e+01
+A (Amplitude) = 7,4337946417343e+02 +/- 1,1427585268821e+01
+t (e-folding time) = 6,1125298575952e+00 +/- 2,6667814186147e-01
+y0 (Offset) = 6,1057235366944e+00 +/- 9,6219632989244e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,2989280034659e+02
+R^2 = 0,9947035431506
+Angepasstes R^2 = 0,9940414860444
+RMSE (Standardabweichung) = 15,16221620828
+RSS (Summe der quadrierten Restwerte) = 5.747,320008665
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+
+[13.05.2015 00:13:26	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,7500000000000e+01
+A (Amplitude) = 7,4764790661325e+02 +/- 1,0755628339032e+01
+t (e-folding time) = 6,2836727640060e+00 +/- 2,4793337826266e-01
+y0 (Offset) = -2,8816808650858e-01 +/- 1,0247893917099e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,5800096176589e+01
+R^2 = 0,9992192504695
+Angepasstes R^2 = 0,9986336883217
+RMSE (Standardabweichung) = 8,111725844516
+RSS (Summe der quadrierten Restwerte) = 329,0004808829
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+
+[13.05.2015 00:39:39	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,7500000000000e+01
+A (Amplitude) = 7,4764790661325e+02 +/- 1,0755628339032e+01
+t (e-folding time) = 6,2836727640060e+00 +/- 2,4793337826266e-01
+y0 (Offset) = -2,8816808650858e-01 +/- 1,0247893917099e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,5800096176589e+01
+R^2 = 0,9992192504695
+Angepasstes R^2 = 0,9986336883217
+RMSE (Standardabweichung) = 8,111725844516
+RSS (Summe der quadrierten Restwerte) = 329,0004808829
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+
+[13.05.2015 02:29:37	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Tabelle1_1
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,7500000000000e+01
+A (Amplitude) = 7,4903797412685e+02 +/- 1,3527109123165e+01
+t (e-folding time) = 6,3637267304305e+00 +/- 2,9759007726784e-01
+y0 (Offset) = -3,3713931881971e+00 +/- 9,2054816168905e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,9364247047100e-01
+R^2 = 0,9990763296324
+Angepasstes R^2 = 0,9983835768568
+RMSE (Standardabweichung) = 0,5418878762908
+RSS (Summe der quadrierten Restwerte) = 1,468212352355
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[13.05.2015 02:32:33	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Tabelle1_1
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,7500000000000e+01
+A (Amplitude) = 7,4903797412685e+02 +/- 1,3527109123165e+01
+t (e-folding time) = 6,3637267304305e+00 +/- 2,9759007726784e-01
+y0 (Offset) = -3,3713931881971e+00 +/- 9,2054816168905e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,9364247047100e-01
+R^2 = 0,9990763296324
+Angepasstes R^2 = 0,9983835768568
+RMSE (Standardabweichung) = 0,5418878762908
+RSS (Summe der quadrierten Restwerte) = 1,468212352355
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[13.05.2015 02:32:35	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Aluminium, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Tabelle1_1
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 1,7500000000000e+01
+A (Amplitude) = 7,4903797405869e+02 +/- 1,3527109118358e+01
+t (e-folding time) = 6,3637267629140e+00 +/- 2,9759007988577e-01
+y0 (Offset) = -3,3713941049797e+00 +/- 9,2054816977883e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,9364247047100e-01
+R^2 = 0,9990763296324
+Angepasstes R^2 = 0,9983835768568
+RMSE (Standardabweichung) = 0,5418878762908
+RSS (Summe der quadrierten Restwerte) = 1,468212352355
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+
+</log>

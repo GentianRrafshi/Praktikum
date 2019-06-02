@@ -1,0 +1,25 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Versuchsablauf}{4}
+\contentsline {subsection}{\numberline {3.1}Verwendete Ger\IeC {\"a}te:}{4}
+\contentsline {subsection}{\numberline {3.2}Vorbereitung:}{4}
+\contentsline {subsection}{\numberline {3.3}Versuch 1: Bestimmung des Drehverm\IeC {\"o}gens von Lactose}{5}
+\contentsline {subsection}{\numberline {3.4}Versuch 2: Untersuchung einer 3D-Brille}{5}
+\contentsline {subsubsection}{\numberline {3.4.1}Voruntersuchung}{5}
+\contentsline {subsubsection}{\numberline {3.4.2}Durchf\IeC {\"u}hrung}{5}
+\contentsline {section}{\numberline {4}Formeln}{6}
+\contentsline {subsection}{\numberline {4.1}Formel f\IeC {\"u}r das spezifische Drehverm\IeC {\"o}gen \IeC {\"u}ber Drehung der Polarisationsebene}{6}
+\contentsline {subsection}{\numberline {4.2}Formel f\IeC {\"u}r das spezifische Drehverm\IeC {\"o}gen \IeC {\"u}ber Natrium-D-Linie}{6}
+\contentsline {section}{\numberline {5}Messwerte}{6}
+\contentsline {section}{\numberline {6}Auswertung}{7}
+\contentsline {subsection}{\numberline {6.1}Auswertung des Drehverm\IeC {\"o}gens von Lactose}{7}
+\contentsline {subsection}{\numberline {6.2}Auswertung des Versuchs \IeC {\"u}ber die 3D-Brille}{11}
+\contentsline {subsubsection}{\numberline {6.2.1}Voruntersuchung:}{11}
+\contentsline {subsubsection}{\numberline {6.2.2}Hauptversuch:}{11}
+\contentsline {section}{\numberline {7}Fehlerrechnung}{13}
+\contentsline {subsection}{\numberline {7.1}Fehlerquellen}{13}
+\contentsline {subsection}{\numberline {7.2}Fehlerrechnung spezifischer Drehwinkel}{13}
+\contentsline {section}{\numberline {8}Zusammenfassung}{14}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{15}
+\contentsline {section}{\numberline {10}Anhang}{16}

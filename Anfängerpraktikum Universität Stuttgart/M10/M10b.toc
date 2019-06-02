@@ -1,0 +1,34 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Versuchsziel}{3}
+\contentsline {section}{\numberline {2}Grundlagen}{3}
+\contentsline {section}{\numberline {3}Versuchsaufbau und Durchf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {3.1}Versuchsaufbau und -Durchf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {3.2}Bestimmung der Winkelrichtgr\IeC {\"o}\IeC {\ss }e D'}{5}
+\contentsline {subsubsection}{\numberline {3.2.1}Statische Methode}{5}
+\contentsline {subsubsection}{\numberline {3.2.2}Dynamische Methode}{5}
+\contentsline {subsection}{\numberline {3.3}Messungen am symmetrischen, anisotropen K\IeC {\"o}rper}{5}
+\contentsline {subsection}{\numberline {3.4}Messungen am symmetrischen, isotropen K\IeC {\"o}rper}{5}
+\contentsline {section}{\numberline {4}Formeln}{6}
+\contentsline {subsection}{\numberline {4.1}Berechnung der Schwingungsdauer pro Periode}{6}
+\contentsline {subsection}{\numberline {4.2}Berechnung der Winkelrichtgr\IeC {\"o}\IeC {\ss }e}{6}
+\contentsline {subsubsection}{\numberline {4.2.1}statische Methode}{6}
+\contentsline {subsubsection}{\numberline {4.2.2}dynamische Methode}{6}
+\contentsline {subsection}{\numberline {4.3}Berechnung f\IeC {\"u}r die Tr\IeC {\"a}gheitsmomente J}{6}
+\contentsline {section}{\numberline {5}Messwerte}{7}
+\contentsline {section}{\numberline {6}Auswertung}{8}
+\contentsline {subsection}{\numberline {6.1}Berechnung der Schwingungsdauer pro Periode}{8}
+\contentsline {subsection}{\numberline {6.2}Auswertung der Winkelrichtgr\IeC {\"o}\IeC {\ss }e}{8}
+\contentsline {subsubsection}{\numberline {6.2.1}statische Methode}{8}
+\contentsline {subsubsection}{\numberline {6.2.2}dynamische Methode}{9}
+\contentsline {subsection}{\numberline {6.3}Auswertung f\IeC {\"u}r die Tr\IeC {\"a}gheitsmomente J}{9}
+\contentsline {subsubsection}{\numberline {6.3.1}Auswertung des Tr\IeC {\"a}gheitsmomentes J f\IeC {\"u}r anisotrope Verteilung}{9}
+\contentsline {subsubsection}{\numberline {6.3.2}Auswertung des Tr\IeC {\"a}gheitsmomentes J f\IeC {\"u}r isotrope Verteilung}{10}
+\contentsline {section}{\numberline {7}Fehlerrechnung}{11}
+\contentsline {subsection}{\numberline {7.1}Fehlerquellen}{11}
+\contentsline {subsection}{\numberline {7.2}Fehlerrechnung}{11}
+\contentsline {subsubsection}{\numberline {7.2.1}Fehler bei der Schwingungsdauer pro Periode}{11}
+\contentsline {subsubsection}{\numberline {7.2.2}Fehler bei der Winkelrichtgr\IeC {\"o}\IeC {\ss }e}{11}
+\contentsline {subsubsection}{\numberline {7.2.3}Fehler f\IeC {\"u}r die Tr\IeC {\"a}gheitsmomente J}{12}
+\contentsline {section}{\numberline {8}Zusammenfassung}{13}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{15}
+\contentsline {section}{\numberline {10}Anhang}{15}

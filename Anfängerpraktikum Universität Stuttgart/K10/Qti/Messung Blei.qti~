@@ -1,0 +1,412 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	37	3	08.05.2015 12:43:59
+geometry	0	0	285	623	
+header	cm[X]	Blei[Y]	1[yEr]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0.00000000000000e+00	7.50860000000000e+02	2.99300000000000e+01
+1	5.00000000000000e-01	5.76360000000000e+02	2.65400000000000e+01
+2	1.00000000000000e+00	4.01360000000000e+02	2.25600000000000e+01
+3	1.50000000000000e+00	2.95860000000000e+02	1.97300000000000e+01
+4	2.00000000000000e+00	2.45860000000000e+02	1.82100000000000e+01
+5	2.50000000000000e+00	1.73360000000000e+02	1.57000000000000e+01
+6	3.00000000000000e+00	1.34360000000000e+02	1.41200000000000e+01
+7	3.50000000000000e+00	9.13600000000000e+01	1.20900000000000e+01
+8	4.00000000000000e+00	5.37600000000000e+01	9.86000000000000e+00
+9	4.50000000000000e+00	4.08600000000000e+01	8.92000000000000e+00
+10	5.00000000000000e+00	2.73600000000000e+01	7.76000000000000e+00
+11	5.50000000000000e+00	1.15600000000000e+01	5.93000000000000e+00
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	08.05.2015 12:46:16
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	5	54	1266	755
+PlotTitle	Impuls-Dicke-Diagramm	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	<b>Dicke [cm]</b>	Impulse [1/min]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	10	-1	10	-1
+TitleFont	MS Shell Dlg 2	23	75	0	0	0
+ScaleFont0	Arial Black	26	87	0	0	0
+ScaleFont1	MS Shell Dlg 2	17	75	0	0	0
+ScaleFont2	Arial Black	26	87	0	0	0
+ScaleFont3	MS Shell Dlg 2	17	75	0	0	0
+AxisFont0	MS Shell Dlg 2	17	50	0	0	0
+AxisFont1	MS Shell Dlg 2	17	50	0	0	0
+AxisFont2	MS Shell Dlg 2	17	50	0	0	0
+AxisFont3	MS Shell Dlg 2	17	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_cm	Tabelle1_Blei	1	0	#00ff00	0	1	7	2	#000000	#ffffff	0	#000000	14	1	2	0	0	36	1
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit1</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	5.555</Range>
+<Points>100</Points>
+<Constant>A	770.67210729494</Constant>
+<Constant>t	1.7756120179747</Constant>
+<Constant>y0	-19.19124713597</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+ErrorBars	1	Tabelle1_cm	Tabelle1_Blei	Tabelle1_1	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit2</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	5.555</Range>
+<Points>100</Points>
+<Constant>A	771.31094366791</Constant>
+<Constant>t	1.69</Constant>
+<Constant>y0	-19.280350570573</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#008000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit3</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	5.555</Range>
+<Points>100</Points>
+<Constant>A	771.31094057346</Constant>
+<Constant>t	1.85</Constant>
+<Constant>y0	-18.280354548309</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#008000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	1	1096.63315842846	0	7	5	2	0
+scale	1	1	1096.63315842846	0	8	5	2	0
+scale	2	-1	6	0	8	5	0	0
+scale	3	-1	6	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>3.741935483871</x>
+<y>1037.8244122802</y>
+<right>5.04032258064516</right>
+<bottom>297.536842526345</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1) Messwerte für Blei
+\l(2) Fitkurve
+\l(4) Ausgleichsgeraden
+</Text>
+<Font>MS Shell Dlg 2	17	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[08.05.2015 12:46:37	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,5000000000000e+00
+A (Amplitude) = 7,6884984797679e+02 +/- 9,1189594300276e+00
+t (e-folding time) = 1,7596977477988e+00 +/- 6,0846315280115e-02
+y0 (Offset) = -1,6379807455369e+01 +/- 6,9630346516572e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,1344834905329e+02
+R^2 = 0,9954164418975
+Angepasstes R^2 = 0,9949867333254
+RMSE (Standardabweichung) = 14,60987163028
+RSS (Summe der quadrierten Restwerte) = 7.043,795518759
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[08.05.2015 12:48:09	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,5000000000000e+00
+A (Amplitude) = 7,6575425337071e+02 +/- 9,1685561811189e+00
+t (e-folding time) = 1,7340349559970e+00 +/- 6,0753130832589e-02
+y0 (Offset) = -1,2113028246157e+01 +/- 7,1703471783778e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,0799102775983e+02
+R^2 = 0,9956364044163
+Angepasstes R^2 = 0,9952000448579
+RMSE (Standardabweichung) = 14,42189404204
+RSS (Summe der quadrierten Restwerte) = 6.447,721860555
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[08.05.2015 12:49:15	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,0000000000000e+00
+A (Amplitude) = 7,6523420298304e+02 +/- 9,8661439822939e+00
+t (e-folding time) = 1,7297368094843e+00 +/- 6,6671881969478e-02
+y0 (Offset) = -1,1395796473539e+01 +/- 8,3425105551079e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,2094361938391e+02
+R^2 = 0,9955596341956
+Angepasstes R^2 = 0,9950662602173
+RMSE (Standardabweichung) = 14,86417234103
+RSS (Summe der quadrierten Restwerte) = 6.186,421342749
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[08.05.2015 12:53:16	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: a+b*exp(-c*x)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,0000000000000e+00
+a = 1,0000000000000e+00 +/- 8,5195529536506e+01
+b = 1,0000000000000e+00 +/- 2,0337614466386e+02
+c = 1,0000000000000e+00 +/- 4,6717715420665e+02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9,0813422338928e+04
+R^2 = -0,8251027853207
+Angepasstes R^2 = -1,02789198369
+RMSE (Standardabweichung) = 301,3526544415
+RSS (Summe der quadrierten Restwerte) = 2.542.775,82549
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[08.05.2015 12:53:29	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: a+b*exp(c*x)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,0000000000000e+00
+a = 9,5250626082734e+06 +/- 2,1398681149097e+10
+b = -9,5244937405810e+06 +/- 2,1398681157154e+10
+c = 1,2774740997191e-05 +/- 2,8700224029780e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,3737250961406e+03
+R^2 = 0,871905461481
+Angepasstes R^2 = 0,8576727349789
+RMSE (Standardabweichung) = 79,8356129565
+RSS (Summe der quadrierten Restwerte) = 178.464,3026919
+---------------------------------------------------------------------------------------
+Iterationen = 445
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[08.05.2015 12:54:42	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,0000000000000e+00
+A (Amplitude) = 7,6523420298304e+02 +/- 9,8661439822939e+00
+t (e-folding time) = 1,7297368094843e+00 +/- 6,6671881969478e-02
+y0 (Offset) = -1,1395796473539e+01 +/- 8,3425105551079e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,2094361938391e+02
+R^2 = 0,9955596341956
+Angepasstes R^2 = 0,9950662602173
+RMSE (Standardabweichung) = 14,86417234103
+RSS (Summe der quadrierten Restwerte) = 6.186,421342749
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+
+[08.05.2015 14:28:41	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,0000000000000e+00
+A (Amplitude) = 7,6523420298304e+02 +/- 9,8661439822939e+00
+t (e-folding time) = 1,7297368094843e+00 +/- 6,6671881969478e-02
+y0 (Offset) = -1,1395796473539e+01 +/- 8,3425105551079e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,2094361938391e+02
+R^2 = 0,9955596341956
+Angepasstes R^2 = 0,9950662602173
+RMSE (Standardabweichung) = 14,86417234103
+RSS (Summe der quadrierten Restwerte) = 6.186,421342749
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+
+[13.05.2015 00:31:24	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,5000000000000e+00
+A (Amplitude) = 7,7110606096903e+02 +/- 1,2239694164326e+01
+t (e-folding time) = 1,7764568072954e+00 +/- 7,9542039424017e-02
+y0 (Offset) = 7,7333264604790e+01 +/- 1,0940536097087e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,4024086721874e+02
+R^2 = 0,9979406045013
+Angepasstes R^2 = 0,9971683311893
+RMSE (Standardabweichung) = 11,84233368972
+RSS (Summe der quadrierten Restwerte) = 1.262,167804969
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[13.05.2015 00:31:59	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,5000000000000e+00
+A (Amplitude) = 7,8336339985674e+02 +/- 1,7966191235655e+01
+t (e-folding time) = 1,8763258486847e+00 +/- 1,2248911172609e-01
+y0 (Offset) = -3,4884633561142e+01 +/- 1,6867582420273e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,8431702363281e+02
+R^2 = 0,9959107218197
+Angepasstes R^2 = 0,9943772425021
+RMSE (Standardabweichung) = 16,86170286871
+RSS (Summe der quadrierten Restwerte) = 2.558,853212695
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[13.05.2015 00:32:54	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 0,0000000000000e+00 bis x = 5,5000000000000e+00
+B (y-intercept) = 6,8208974358974e+00 +/- 9,5069603366118e-02
+A (slope) = -7,3335664335664e-01 +/- 2,9281076705712e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,0651386946387e-02
+R^2 = 0,9843081302069
+Angepasstes R^2 = 0,9808210480307
+RMSE (Standardabweichung) = 0,1750753750428
+RSS (Summe der quadrierten Restwerte) = 0,3065138694639
+---------------------------------------------------------------------------------------
+[13.05.2015 00:35:18	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,5000000000000e+00
+A (Amplitude) = 7,7067210729494e+02 +/- 1,2206015737379e+01
+t (e-folding time) = 1,7756120179747e+00 +/- 7,9322283804133e-02
+y0 (Offset) = -1,9191247135970e+01 +/- 1,0905555150743e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,3953481341982e+02
+R^2 = 0,9979488547884
+Angepasstes R^2 = 0,9971796753341
+RMSE (Standardabweichung) = 11,81248548866
+RSS (Summe der quadrierten Restwerte) = 1.255,813320778
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+
+[13.05.2015 02:38:20	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Tabelle1_1
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,5000000000000e+00
+A (Amplitude) = 7,7131094366791e+02 +/- 1,3689109458267e+01
+t (e-folding time) = 1,8275182179485e+00 +/- 7,2253825550140e-02
+y0 (Offset) = -2,5280350570573e+01 +/- 6,5418690357413e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,2171496341731e-01
+R^2 = 0,9989575818456
+Angepasstes R^2 = 0,9985666750378
+RMSE (Standardabweichung) = 0,6493958449338
+RSS (Summe der quadrierten Restwerte) = 3,795434670756
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[13.05.2015 02:38:23	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: Tabelle1_Blei, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Instrumentell: unter Benutzung der Fehlerbalken (w_i = 1/er_i**2), unter Benutzung der Fehlerbalkendaten: Tabelle1_1
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 5,5000000000000e+00
+A (Amplitude) = 7,7131094057346e+02 +/- 1,3689109301789e+01
+t (e-folding time) = 1,8275182665099e+00 +/- 7,2253828857986e-02
+y0 (Offset) = -2,5280354548309e+01 +/- 6,5418693424154e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,2171496341729e-01
+R^2 = 0,9989575818456
+Angepasstes R^2 = 0,9985666750378
+RMSE (Standardabweichung) = 0,6493958449338
+RSS (Summe der quadrierten Restwerte) = 3,795434670756
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+</log>

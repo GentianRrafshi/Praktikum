@@ -1,0 +1,321 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Tabelle1	30	3	04.07.2015 16:03:59
+geometry	0	0	445	220	
+header	1[X]	l-vorm[Y]	l-nachm[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	5.00000000000000e-02	1.10000000000000e+01	1.21000000000000e+01
+1	1.00000000000000e-01	1.20000000000000e+01	1.24000000000000e+01
+2	1.50000000000000e-01	1.25000000000000e+01	1.27000000000000e+01
+3	2.00000000000000e-01	1.27000000000000e+01	1.31000000000000e+01
+4	2.50000000000000e-01	1.32000000000000e+01	1.34000000000000e+01
+5	3.00000000000000e-01	1.36000000000000e+01	1.37000000000000e+01
+6	3.50000000000000e-01	1.40000000000000e+01	1.40000000000000e+01
+7	4.00000000000000e-01	1.44000000000000e+01	1.46000000000000e+01
+8	4.50000000000000e-01	1.48000000000000e+01	1.48000000000000e+01
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	04.07.2015 16:06:12
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<graph>
+ggeometry	14	8	1338	578
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	12	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	12	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	12	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	12	75	0	0	0
+AxisFont0	MS Shell Dlg 2	12	50	0	0	0
+AxisFont1	MS Shell Dlg 2	12	50	0	0	0
+AxisFont2	MS Shell Dlg 2	12	50	0	0	0
+AxisFont3	MS Shell Dlg 2	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_1	Tabelle1_l-vorm	1	0	#000000	0	1	9	1	#000000	#00ffff	0	#000000	14	1	2	0	0	29	1
+curve	Tabelle1_1	Tabelle1_l-nachm	1	0	#ff0000	0	1	9	2	#000000	#ff8000	0	#000000	14	1	2	0	0	29	1
+scale	0	10.5	15	0	8	5	0	0
+scale	1	10.5	15	0	8	5	0	0
+scale	2	0	0.5	0	8	5	0	0
+scale	3	0	0.5	0	6	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	16
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0039714058776807</x>
+<y>14.835030549898</y>
+<right>0.0778395552025417</right>
+<bottom>14.3859470468432</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>MS Shell Dlg 2	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[04.07.2015 16:08:17	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+B (y-intercept) = 1,0941666666667e+01 +/- 1,3779489780987e-01
+A (slope) = 8,7666666666667e+00 +/- 4,8973591847165e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,5976190476190e-02
+R^2 = 0,9786219581211
+Angepasstes R^2 = 0,9714959441615
+RMSE (Standardabweichung) = 0,189673905628
+RSS (Summe der quadrierten Restwerte) = 0,2518333333333
+---------------------------------------------------------------------------------------
+[04.07.2015 16:08:29	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_l-nachm, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+B (y-intercept) = 1,1705555555556e+01 +/- 5,6865508588418e-02
+A (slope) = 6,8666666666667e+00 +/- 2,0210532117330e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,1269841269841e-03
+R^2 = 0,9939725171768
+Angepasstes R^2 = 0,9919633562357
+RMSE (Standardabweichung) = 0,07827505430841
+RSS (Summe der quadrierten Restwerte) = 0,04288888888889
+---------------------------------------------------------------------------------------
+
+[04.07.2015 16:54:47	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_l-nachm, unter Verwendung der Funktion: a*x+b
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 5,0000000000000e-02 bis x = 2,5000000000000e-01
+a = 6,5999999986543e+00 +/- 1,9999999938042e-01
+b = 1,1750000000202e+01 +/- 3,3166247926021e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,0000000000000e-03
+R^2 = 0,9972527472527
+Angepasstes R^2 = 0,9945054945055
+RMSE (Standardabweichung) = 0,03162277660168
+RSS (Summe der quadrierten Restwerte) = 0,003
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+
+[04.07.2015 17:02:09	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+a0 = 1,0137301587302e+01 +/- 2,7757275468221e-01
+a1 = 2,1571188071188e+01 +/- 4,5521457834009e+00
+a2 = -5,1327561327562e+01 +/- 2,0610027467695e+01
+a3 = 5,9259259259260e+01 +/- 2,7201672294571e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,6481962481963e-02
+R^2 = 0,9930042604066
+Angepasstes R^2 = 0,9860085208133
+RMSE (Standardabweichung) = 0,1283820956441
+RSS (Summe der quadrierten Restwerte) = 0,08240981240981
+---------------------------------------------------------------------------------------
+[04.07.2015 17:02:14	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3+a4*x^4+a5*x^5
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+a0 = 8,5083333333333e+00 +/- 4,5095171884853e-01
+a1 = 7,2830186480189e+01 +/- 1,4681724566969e+01
+a2 = -5,6333916083918e+02 +/- 1,5953451670017e+02
+a3 = 2,2502331002332e+03 +/- 7,5996485100748e+02
+a4 = -4,2027972027974e+03 +/- 1,6386876386726e+03
+a5 = 2,9743589743591e+03 +/- 1,3072580292648e+03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,4712509712508e-03
+R^2 = 0,999115980228
+Angepasstes R^2 = 0,9964639209121
+RMSE (Standardabweichung) = 0,0589173231847
+RSS (Summe der quadrierten Restwerte) = 0,01041375291375
+---------------------------------------------------------------------------------------
+[04.07.2015 17:02:20	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3+a4*x^4+a5*x^5+a6*x^6+a7*x^7
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+a0 = 1,2066666666662e+01 +/- 3,5726966868453e+00
+a1 = -9,5515584415376e+01 +/- 1,6559848155405e+02
+a2 = 2,4187232323198e+03 +/- 2,8748690577452e+03
+a3 = -2,4085555555529e+04 +/- 2,4957879420879e+04
+a4 = 1,2351111111100e+05 +/- 1,1942047511458e+05
+a5 = -3,4222222222197e+05 +/- 3,1960802592563e+05
+a6 = 4,8711111111082e+05 +/- 4,4791180789875e+05
+a7 = -2,7936507936494e+05 +/- 2,5573985270249e+05
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,7272727272741e-03
+R^2 = 0,9995987035036
+RMSE (Standardabweichung) = 0,06875516509524
+RSS (Summe der quadrierten Restwerte) = 0,004727272727274
+---------------------------------------------------------------------------------------
+[04.07.2015 17:02:55	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+a0 = 1,0137301587302e+01 +/- 2,7757275468221e-01
+a1 = 2,1571188071188e+01 +/- 4,5521457834009e+00
+a2 = -5,1327561327562e+01 +/- 2,0610027467695e+01
+a3 = 5,9259259259260e+01 +/- 2,7201672294571e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,6481962481963e-02
+R^2 = 0,9930042604066
+Angepasstes R^2 = 0,9860085208133
+RMSE (Standardabweichung) = 0,1283820956441
+RSS (Summe der quadrierten Restwerte) = 0,08240981240981
+---------------------------------------------------------------------------------------
+[04.07.2015 17:03:31	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3+a4*x^4+a5*x^5+a6*x^6+a7*x^7
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+a0 = 1,2066666666662e+01 +/- 3,5726966868453e+00
+a1 = -9,5515584415376e+01 +/- 1,6559848155405e+02
+a2 = 2,4187232323198e+03 +/- 2,8748690577452e+03
+a3 = -2,4085555555529e+04 +/- 2,4957879420879e+04
+a4 = 1,2351111111100e+05 +/- 1,1942047511458e+05
+a5 = -3,4222222222197e+05 +/- 3,1960802592563e+05
+a6 = 4,8711111111082e+05 +/- 4,4791180789875e+05
+a7 = -2,7936507936494e+05 +/- 2,5573985270249e+05
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,7272727272741e-03
+R^2 = 0,9995987035036
+RMSE (Standardabweichung) = 0,06875516509524
+RSS (Summe der quadrierten Restwerte) = 0,004727272727274
+---------------------------------------------------------------------------------------
+[04.07.2015 17:03:57	Diagramm: ''Grafik1'']
+Boltzmann (Sigmoidal) Fit von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+A1 (Anfangswert) = -2,4547881060510e+04 +/- 4,9376970701466e+08
+A2 (Endwert) = 1,8165757540978e+01 +/- 2,0651684627969e+01
+x0 (Zentrum) = -4,5906066480077e+00 +/- 1,1461473347679e+04
+dx (Zeitkonstante) = 5,6823428744838e-01 +/- 4,7329137080810e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,9998830661089e-02
+R^2 = 0,9872670498043
+Angepasstes R^2 = 0,9745340996086
+RMSE (Standardabweichung) = 0,1732017051333
+RSS (Summe der quadrierten Restwerte) = 0,1499941533054
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[04.07.2015 17:04:43	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_l-nachm, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3+a4*x^4+a5*x^5
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+a0 = 1,2533333333333e+01 +/- 5,5307292999178e-01
+a1 = -2,0630069930067e+01 +/- 1,8006505096199e+01
+a2 = 3,1322843822841e+02 +/- 1,9566223810275e+02
+a3 = -1,5673659673658e+03 +/- 9,3206427488671e+02
+a4 = 3,5104895104892e+03 +/- 2,0097800624337e+03
+a5 = -2,8717948717946e+03 +/- 1,6032958702251e+03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,2214452214456e-03
+R^2 = 0,9977985786855
+Angepasstes R^2 = 0,9911943147421
+RMSE (Standardabweichung) = 0,07225956837295
+RSS (Summe der quadrierten Restwerte) = 0,01566433566434
+---------------------------------------------------------------------------------------
+[04.07.2015 17:04:48	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3+a4*x^4+a5*x^5
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+a0 = 8,5083333333333e+00 +/- 4,5095171884853e-01
+a1 = 7,2830186480189e+01 +/- 1,4681724566969e+01
+a2 = -5,6333916083918e+02 +/- 1,5953451670017e+02
+a3 = 2,2502331002332e+03 +/- 7,5996485100748e+02
+a4 = -4,2027972027974e+03 +/- 1,6386876386726e+03
+a5 = 2,9743589743591e+03 +/- 1,3072580292648e+03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,4712509712508e-03
+R^2 = 0,999115980228
+Angepasstes R^2 = 0,9964639209121
+RMSE (Standardabweichung) = 0,0589173231847
+RSS (Summe der quadrierten Restwerte) = 0,01041375291375
+---------------------------------------------------------------------------------------
+[04.07.2015 17:05:02	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+a0 = 1,0137301587302e+01 +/- 2,7757275468221e-01
+a1 = 2,1571188071188e+01 +/- 4,5521457834009e+00
+a2 = -5,1327561327562e+01 +/- 2,0610027467695e+01
+a3 = 5,9259259259260e+01 +/- 2,7201672294571e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,6481962481963e-02
+R^2 = 0,9930042604066
+Angepasstes R^2 = 0,9860085208133
+RMSE (Standardabweichung) = 0,1283820956441
+RSS (Summe der quadrierten Restwerte) = 0,08240981240981
+---------------------------------------------------------------------------------------
+[04.07.2015 17:05:07	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_l-vorm, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 5,0000000000000e-02 bis x = 4,5000000000000e-01
+a0 = 1,0137301587302e+01 +/- 2,7757275468221e-01
+a1 = 2,1571188071188e+01 +/- 4,5521457834009e+00
+a2 = -5,1327561327562e+01 +/- 2,0610027467695e+01
+a3 = 5,9259259259260e+01 +/- 2,7201672294571e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,6481962481963e-02
+R^2 = 0,9930042604066
+Angepasstes R^2 = 0,9860085208133
+RMSE (Standardabweichung) = 0,1283820956441
+RSS (Summe der quadrierten Restwerte) = 0,08240981240981
+---------------------------------------------------------------------------------------
+</log>
