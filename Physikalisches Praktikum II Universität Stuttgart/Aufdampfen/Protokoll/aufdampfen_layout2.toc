@@ -1,0 +1,10 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {\S 1}Grundlagen}{3}{section.2}
+\contentsline {section}{\numberline {\S 2}Versuchsaufbau und Versuchsdurchf\IeC {\"u}hrung}{5}{section.11}
+\contentsline {section}{\numberline {\S 3}Auswertung}{6}{section.16}
+\contentsline {subsection}{\numberline {\S 3.1}Metallschichten einer Dicke von 200 und 20 nm}{6}{subsection.17}
+\contentsline {subsection}{\numberline {\S 3.2}Zweischichtsystem aus 20 nm Metall und 500 nm Dielektrikum}{8}{subsection.20}
+\contentsline {subsection}{\numberline {\S 3.3}Filter f\IeC {\"u}r 520 nm}{9}{subsection.22}
+\contentsline {subsection}{\numberline {\S 3.4}Interferenzfilter mit 500 nm Dielektrikum}{10}{subsection.26}
+\contentsline {section}{\numberline {\S 4}Fehlerbetrachtung}{11}{section.29}
+\contentsline {section}{\numberline {\S 5}Auswertung}{12}{section.30}
