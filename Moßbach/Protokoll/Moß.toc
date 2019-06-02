@@ -1,0 +1,11 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {\S 1}Grundlagen}{3}{section.2}
+\contentsline {section}{\numberline {\S 2}Versuchsaufbau \& Versuchsbeschreibung}{8}{section.8}
+\contentsline {section}{\numberline {\S 3}Auswertung}{9}{section.10}
+\contentsline {subsection}{\numberline {\S 3.1}Gamma-Spektrum von $^{57}$Co}{9}{subsection.11}
+\contentsline {subsection}{\numberline {\S 3.2}Hyperfeinstrukturaufspaltung von $^{57}$Fe}{10}{subsection.13}
+\contentsline {subsection}{\numberline {\S 3.3}Geschwindigkeitskalibrierung}{12}{subsection.16}
+\contentsline {subsection}{\numberline {\S 3.4}Isomerieverschiebung und elektrischer Feldgradient bei FeSO$_4\cdot $7H$_2$O}{12}{subsection.17}
+\contentsline {subsection}{\numberline {\S 3.5}Isomerieverschiebung von K$_4$(Fe(CN)$_6$)$\cdot $3H$_2$O }{13}{subsection.20}
+\contentsline {section}{\numberline {\S 4}Fehlerbetrachtung}{14}{section.22}
+\contentsline {section}{\numberline {\S 5}Zusammenfassung}{14}{section.23}
