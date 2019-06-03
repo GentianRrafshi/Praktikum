@@ -1,0 +1,19 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {\S 1}Grundlagen}{3}{section.2}
+\contentsline {subsection}{\numberline {\S 1.1}Quantenmechanische Betrachtung der Kernspinresonanz}{3}{subsection.3}
+\contentsline {subsection}{\numberline {\S 1.2}Klassische Betrachtung der Kernspinresonanz}{4}{subsection.8}
+\contentsline {section}{\numberline {\S 2}Versuchsaufbau}{6}{section.9}
+\contentsline {section}{\numberline {\S 3}Auswertung}{7}{section.15}
+\contentsline {subsection}{\numberline {\S 3.1}Free Induction Decay}{7}{subsection.16}
+\contentsline {subsection}{\numberline {\S 3.2}Spin-Echo}{8}{subsection.19}
+\contentsline {subsection}{\numberline {\S 3.3}Carr-Purcell und Meiboom-Gill}{8}{subsection.22}
+\contentsline {subsection}{\numberline {\S 3.4}Inversion Recovery}{11}{subsection.27}
+\contentsline {subsection}{\numberline {\S 3.5}Berechnete Relaxationszeiten aller Proben}{12}{subsection.30}
+\contentsline {subsection}{\numberline {\S 3.6}Fluorinert Probe}{14}{subsection.32}
+\contentsline {section}{\numberline {\S 4}Fehlerbetrachtung}{14}{section.34}
+\contentsline {section}{\numberline {\S 5}Zusammenfassung}{14}{section.35}
+\contentsline {section}{\numberline {\S 6}Anhang}{15}{section.36}
+\contentsline {subsection}{\numberline {\S 6.1}Free Induction Decay}{15}{subsection.37}
+\contentsline {subsection}{\numberline {\S 6.2}Spin Echo}{19}{subsection.44}
+\contentsline {subsection}{\numberline {\S 6.3}Meiboom-Gill}{22}{subsection.51}
+\contentsline {subsection}{\numberline {\S 6.4}Inversion Recovery}{25}{subsection.58}
